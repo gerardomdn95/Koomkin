@@ -1,0 +1,33 @@
+nav {
+    background:#C8E4ED;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+}
+
+.socialMedia{
+    color: white;
+    font-size: -webkit-xxx-large;
+}
+
+.parallax-container {
+    height: 1000px;
+}
+
+.blue-div {
+    background:#A3E1F8;
+}
+
+.green-div {
+    background:#6BE1B7;
+}
+
+.brown-div {
+    background:#D39263;   
+}
