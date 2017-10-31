@@ -25,11 +25,11 @@
 <div id="inicio">
     <div class="parallax-container valign-wrapper blue-div">
         <div class="row">
-            <div class="col l5 m5 s12 animated fadeInRight 2">
-                <img class="centrarImg phone" src="app/assets/img/1.png" alt="">
+            <div class="col l5 m5 s12 animated zoomIn 2">
+                <img class="centrarImg" id="phone" src="app/assets/img/1.png" alt="">
             </div>
-            <div class="col l7 m7 s12 animated fadeInUp">
-                <img height="80px" src="app/assets/img/Logo_Koomkin.png" alt="Koomkin Logo">
+            <div class="col l7 m7 s12 animated zoomIn">
+                <img id="logo" height="80px" src="app/assets/img/Logo_Koomkin.png" alt="Koomkin Logo">
                 <h1>
                     <b>¿Cuántos clientes nuevos quieres hoy?</b>
                 </h1>
@@ -38,17 +38,78 @@
             </div>
         </div>
     </div>
+    <div class="parallax-container valign-wrapper green-div">
+        <div class="container">
+            <div class="row">
+                <div class="col l7 m7 s12 animated fadeInUp">
+                    <h1>
+                        <b>Un algoritmo inteligente</b>
+                    </h1>
+                    <h2>Nuestro sistema de inteligencia artificial identifica la cobertura óptima y
+                        <b>el canal más efectivo para que obtengas clientes nuevos.</b>
+                        <div class="socialMedia">
+                            <br>
+                            <div class="fa fa-instagram"></div>
+                            <div class="fa fa-linkedin"></div>
+                            <div class="fa fa-twitter"></div>
+                            <div class="fa fa-facebook"></div>
+                            <div class="fa fa-google"></div>
+                            <div class="fa fa-youtube"></div>
+                            <div class="fa fa-foursquare"></div>
+                        </div>
+                    </h2>
+                </div>
+                <div class="col l5 m5 s12 animated fadeInDown">
+                    <img class="centrarImg" src="app/assets/img/2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper blue-div">
+        <div class="container">
+            <div class="row">
+                <div class="col l8 m8 s12 cinta">
+                    <img class="up" src="app/assets/img/cinta.jpg" alt="">
+                    <img class="down" src="app/assets/img/cinta.jpg" alt="">
+                    <img class="up" src="app/assets/img/cinta.jpg" alt="">
+                    <img class="down" src="app/assets/img/cinta.jpg" alt="">
+                </div>
+                <div class="col l4 m4 s12">
+                    <h1>
+                        <b>Para todos los negocios</b>
+                    </h1>
+                    <h2>Koomkin está diseñado para funcionar
+                        <b>con cualquier tipo de empresa, sin importar su giro o su tamaño.</b>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper brown-div">
+        <div class="row">
+            <div class="col l8 m8 s12">
+                <img class="animated bounceInDown uno" height="100px" src="app/assets/img/3.png" alt="">
+                <img class="animated bounceInDown" height="100px" src="app/assets/img/3.png" alt="">
+                <img class="animated bounceInDown" height="100px" src="app/assets/img/3.png" alt="">
+            </div>
+            <div class="col l4 m4 s12">
+                <h1>
+                    <b>Información a tiempo</b>
+                </h1>
+                <h2>Ingresa desde nuestra App y evalúa en tiempo real el
+                    <b>desempeño de tu campaña.</b>
+                </h2>
+            </div>
+        </div>
+    </div>
 </div>
-
-
 <div id="servicio" class="parallax-container valign-wrapper green-div">
     <div class="container">
         <div class="row">
             <div class="col l7 m7 s12 animated fadeInUp">
                 <h1>
                     <b>Un algoritmo inteligente</b>
-                    <div class="linea"></div>
-                k</h1>
+                </h1>
                 <h2>Nuestro sistema de inteligencia artificial identifica la cobertura óptima y
                     <b>el canal más efectivo para que obtengas clientes nuevos.</b>
                     <div class="socialMedia">
@@ -74,10 +135,6 @@
     <div class="container">
         <div class="row">
             <div class="col l4 m4 s12">
-                <img class="up" height="50px" src="app/assets/img/avatar.jpg" alt="">
-                <img class="down" height="50px" src="app/assets/img/avatar.jpg" alt="">
-                <img class="up" height="50px" src="app/assets/img/avatar.jpg" alt="">
-                <img class="down" height="50px" src="app/assets/img/avatar.jpg" alt="">
             </div>
             <div class="col l8 m8 s12">
                 <h1>
@@ -92,20 +149,21 @@
 </div>
 
 <div id="contacto" class="parallax-container valign-wrapper brown-div">
-    <div class="row">
-
-        <div class="col l7 m7 s12">
-            <img class="animated bounceInDown uno" height="100px" src="app/assets/img/3.png" alt="">
-            <img class="animated bounceInDown" height="100px" src="app/assets/img/3.png" alt="">
-            <img class="animated bounceInDown" height="100px" src="app/assets/img/3.png" alt="">
-        </div>
-        <div class="col l5 m5 s12">
-            <h1>
-                <b>Información a tiempo</b>
-            </h1>
-            <h2>Ingresa desde nuestra App y evalúa en tiempo real el
-                <b>desempeño de tu campaña.</b>
-            </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col l7 m7 s12">
+                <img class="animated bounceInDown uno" height="100px" src="app/assets/img/3.png" alt="">
+                <img class="animated bounceInDown" height="100px" src="app/assets/img/3.png" alt="">
+                <img class="animated bounceInDown" height="100px" src="app/assets/img/3.png" alt="">
+            </div>
+            <div class="col l5 m5 s12">
+                <h1>
+                    <b>Información a tiempo</b>
+                </h1>
+                <h2>Ingresa desde nuestra App y evalúa en tiempo real el
+                    <b>desempeño de tu campaña.</b>
+                </h2>
+            </div>
         </div>
     </div>
 </div>

@@ -15,8 +15,10 @@
         var vm = this;
 
         $('.aniview').AniView();
-        
-        var $phone = $('.phone');
+
+        var $cintaUp = $('.cintaUp');
+        var $cintaDown = $('.cintaDown');
+        var $logo = $('#logo');
         var $up = $('.up');
         var $down = $('.down');
 
@@ -24,8 +26,9 @@
 
         $win.on('scroll', function(){
             var top = $win.scrollTop() / 3;
-            $up.css('transform', 'translateY(' + top * 5 +'px)');
-            $down.css('transform', 'translateY(' + top * -5 +'px)');
+
+            $up.css('transform', 'translateX(' + top * .3 +'px)');
+            $down.css('transform', 'translateX(' + top * -.3 +'px)');
             $phone.css('transform', 'translateY(' + top * 5 +'px)'); //'rotate(' + top + 'deg)');
         });
 

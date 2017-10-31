@@ -9,17 +9,23 @@ nav {
     margin-top: 10px;
 }
 
+#logo{
+
+}
+
+.cinta {
+    transform: rotate(85deg);
+    height: 375px;
+}
+
 .uno {
     -webkit-animation-delay: 3;
 }
 
-#2 {
-    animation-delay: 0.74s;
-}
-
-#3 {
-    animation-delay: 3s;
-}
+#phone {
+    animation-duration: 10s;
+    animation-delay: 10s;
+  }
 
 .navbar-fixed {
     top: 0;
@@ -44,6 +50,16 @@ h1 {
 h2 {
     color: #3a4d57;
     padding-left: 30px;
+}
+
+.up {
+    height: 245px;
+    width: 1300px;
+}
+
+.down {
+    height: 245px;
+    width: 1300px;
 }
 
 .socialMedia{
