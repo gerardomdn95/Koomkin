@@ -20,18 +20,21 @@ nav {
 
 #phone {
     position: absolute;
-    left: 0%;
-    top: -3%;
+    left: -5%;
+    top: -0%;
     z-index: 2;
-    height: 115%;
+    height: auto;
+    width: 55%;
   }
+  
 #lead {
     -webkit-animation-delay: .5s;
     position: absolute;
-    left: 0%;
-    top: -3%;
+    left: -5%;
+    top: -0%;
     z-index: 2;
-    height: 115%;
+    height: auto;
+    width: 55%;
 }
 
 .navbar-fixed {
