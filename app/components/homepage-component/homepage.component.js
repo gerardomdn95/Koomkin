@@ -14,7 +14,7 @@
     function homeCtrl() {
         var vm = this;
 
-        $('.aniview').AniView();
+        $(".button-collapse").sideNav();
 
         var $up = $('.up');
         var $down = $('.down');
@@ -24,20 +24,10 @@
 
         $win.on('scroll', function () {
             var top = $win.scrollTop() / 3;
-            $up.css('transform', 'translateX(' + top * .3 + 'px)');
-            $down.css('transform', 'translateX(' + top * -.3 + 'px)');
-            //'rotate(' + top + 'deg)');
+            $up.css('transform', 'translateX(' + top * .5 + 'px)');
+            $down.css('transform', 'translateX(' + top * -.5 + 'px)');
         });
-
-        var options = [
-            {
-                selector: '.sec2', offset: 500, callback: function (el) {
-                    Materialize.fadeInImage($(el));
-                }
-            }
-        ];
-        Materialize.scrollFire(options);
-
+        
         $(document).ready(function () {
             $('ul.tabs').tabs();
         });

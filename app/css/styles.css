@@ -1,3 +1,51 @@
+@media (min-width: 1200px) {
+    h2 {
+        color: red !important; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    h2 {
+        color: blue;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        color: green;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    div{
+        text-align: center;
+    }
+    #first {
+        margin-top: 140%;
+    }
+    #second {
+        margin-top: 50%;
+    }
+    #phone {
+        margin-top: 15%;
+        width: 120% !important;
+    }
+    #lead {
+        margin-top: 15%;
+        width: 120% !important;
+    }
+    
+    .socialMedia{
+        font-size: 35px !important;
+    }
+}
+
 nav {
     background:rgba(0, 0, 0, 0.15);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,21 +66,24 @@ nav {
     animation-delay: 3;
 }
 
+#logo{
+    height: auto;
+    width: 50%
+}
+
 #phone {
     position: absolute;
     left: -5%;
     top: -0%;
-    z-index: 2;
     height: auto;
     width: 55%;
   }
   
 #lead {
-    -webkit-animation-delay: .5s;
+    -webkit-animation-delay: 2s;
     position: absolute;
     left: -5%;
     top: -0%;
-    z-index: 2;
     height: auto;
     width: 55%;
 }
@@ -44,7 +95,7 @@ nav {
     width: 100%;
 }
 
-.lowercase{
+.lowercase {
     text-transform: lowercase;
 }
 
@@ -54,17 +105,16 @@ h1 {
 
 h2 {
     color: #3a4d57;
-    padding-left: 30px;
 }
 
 .up {
     height: 245px;
-    width: 1300px;
+    width: 1500px;
 }
 
 .down {
     height: 245px;
-    width: 1300px;
+    width: 1500px;
 }
 
 .socialMedia{
