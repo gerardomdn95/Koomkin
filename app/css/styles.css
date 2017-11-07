@@ -1,19 +1,21 @@
 @media (min-width: 1200px) {
-    h2 {
-        color: red !important; 
-    }
+
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     h2 {
-        color: blue;
+        color: blue !important;
+    }
+    #phone {
+        margin-top: 120px;
+    }
+    #lead {
+        margin-top: 120px;
     }
 }
 
 @media (max-width: 767px) {
-    h2 {
-        color: green;
-    }
+
 }
 
 @media (max-width: 480px) {
@@ -68,7 +70,7 @@ nav {
 
 #logo{
     height: auto;
-    width: 50%
+    width: 50%;
 }
 
 #phone {
@@ -86,6 +88,21 @@ nav {
     top: -0%;
     height: auto;
     width: 55%;
+}
+
+#completePhone {
+    height: auto;
+    width: 75%;
+}
+
+#foot {
+    height: 10%;
+    background:#434a4e;
+}
+
+#enviar {
+    float: right;
+    background-color: #3a4d57;
 }
 
 .navbar-fixed {
@@ -108,34 +125,46 @@ h2 {
 }
 
 .up {
-    height: 245px;
-    width: 1500px;
+    height: auto;
+    width: 100%;
+    /*height: 245px;
+    width: 1500px;*/
 }
 
 .down {
-    height: 245px;
-    width: 1500px;
+    height: auto;
+    width: 100%;
+    /*height: 245px;
+    width: 1500px;*/
 }
 
 .socialMedia{
     color: white;
-    font-size: -webkit-xxx-large;
 }
 
 .parallax-container {
     height: 1000px;
 }
 
+.bluem-div {
+    background:#9DDFCD;
+}
+
 .blue-div {
     background:#A3E1F8;
 }
 
-.green-div {
-    background:#6BE1B7;
+.gray-div {
+    background:#434a4e;
+    color: white !important;    
 }
 
 .brown-div {
     background:#D39263;   
+}
+
+.dblue-div {
+    background-color: #007cae;
 }
 
 .tabs.tabs-transparent .tab a.active {
@@ -147,7 +176,7 @@ h2 {
 }
 
 .tabs.tabs-transparent .indicator {
-    background-color: rgb(61, 170, 209);
+    background-color: rgba(61, 170, 209, 1);
     margin-bottom: 10px;
 }
 

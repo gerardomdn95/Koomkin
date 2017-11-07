@@ -13,9 +13,7 @@
 
     function homeCtrl() {
         var vm = this;
-
-        $(".button-collapse").sideNav();
-
+        
         var $up = $('.up');
         var $down = $('.down');
         var $sec2 = $('#sec2');
@@ -27,11 +25,6 @@
             $up.css('transform', 'translateX(' + top * .5 + 'px)');
             $down.css('transform', 'translateX(' + top * -.5 + 'px)');
         });
-        
-        $(document).ready(function () {
-            $('ul.tabs').tabs();
-        });
-
     }
 
 })();
