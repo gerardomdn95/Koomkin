@@ -46,6 +46,9 @@
     .socialMedia{
         font-size: 35px !important;
     }
+    #enviar {
+        float: center !important;
+    }
 }
 
 nav {
@@ -59,9 +62,9 @@ nav {
     margin-top: 10px;
 }
 
-.cinta {
-    transform: rotate(85deg);
-    height: 375px;
+#cinta {
+    margin-left: -20px;
+    transform: rotate(-15deg);
 }
 
 .uno {
@@ -78,8 +81,8 @@ nav {
     left: -5%;
     top: -0%;
     height: auto;
-    width: 55%;
-  }
+    width: 45%;
+}
   
 #lead {
     -webkit-animation-delay: 2s;
@@ -87,7 +90,12 @@ nav {
     left: -5%;
     top: -0%;
     height: auto;
-    width: 55%;
+    width: 45%;
+}
+
+#app {
+    height: auto;
+    width: 100%;
 }
 
 #completePhone {
@@ -112,6 +120,19 @@ nav {
     width: 100%;
 }
 
+.social {
+    background-image: url("../app/assets/img/like.png");
+}
+
+
+.counter {
+    color: white;
+}
+
+.modal-content {
+    color: #3a4d57;
+}
+
 .lowercase {
     text-transform: lowercase;
 }
@@ -126,16 +147,12 @@ h2 {
 
 .up {
     height: auto;
-    width: 100%;
-    /*height: 245px;
-    width: 1500px;*/
+    width: 23%;
 }
 
 .down {
     height: auto;
-    width: 100%;
-    /*height: 245px;
-    width: 1500px;*/
+    width: 23%;
 }
 
 .socialMedia{
@@ -184,4 +201,22 @@ h2 {
     color: #3a4d57;
     height: 100px;
     width: 100px;
+}
+
+.adress {
+    text-align: center;
+}
+
+.graphicElement{
+    border-bottom: 12px solid rgba(33, 222, 206, 1);
+    height: 0 !important;
+    min-height: 0 !important;
+    width: 51px;
+    position: absolute;
+}
+
+#negocios {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 39%;
 }
