@@ -1,37 +1,41 @@
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
 
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    h2 {
-        color: blue !important;
-    }
     #phone {
         margin-top: 120px;
     }
     #lead {
         margin-top: 120px;
     }
+        .socialBackground {
+        height: -webkit-fill-available !important;
+    }
 }
 
 @media (max-width: 767px) {
-
+    .socialBackground {
+        height: -webkit-fill-available !important;
+    }
 }
 
 @media (max-width: 480px) {
     h2 {
         font-size: 35px;
+        font-weight: 400 !important;
     }
     h1 {
         font-size: 40px;
+        font-weight: 300 !important;
     }
     div{
         text-align: center;
     }
-    #first {
+    #cuantos {
         margin-top: 140%;
     }
-    #second {
+    #unAlgoritmo {
         margin-top: 50%;
     }
     #phone {
@@ -42,19 +46,30 @@
         margin-top: 15%;
         width: 120% !important;
     }
-    
+    #enviar {
+        float: center !important;
+    }
+    #cinta {
+        visibility: hidden !important;
+    }
+    #negocios {
+        position: absolute;
+        margin-top: 90% !important;
+        margin-left: 0% !important;
+    }
     .socialMedia{
         font-size: 35px !important;
     }
-    #enviar {
-        float: center !important;
+    .socialBackground {
+        height: -webkit-fill-available !important;
     }
 }
 
 nav {
-    background:rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.59);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: lowercase;
+    top: 0;
+    color: #3a4d57;
 }
 
 .navlogo {
@@ -62,18 +77,13 @@ nav {
     margin-top: 10px;
 }
 
+#sidenav-overlay {
+    z-index: 996;
+}
+
 #cinta {
     margin-left: -20px;
     transform: rotate(-15deg);
-}
-
-.uno {
-    animation-delay: 3;
-}
-
-#logo{
-    height: auto;
-    width: 50%;
 }
 
 #phone {
@@ -113,17 +123,13 @@ nav {
     background-color: #3a4d57;
 }
 
-.navbar-fixed {
-    top: 0;
+#navb {
     z-index: 100;
-    position: fixed;
-    width: 100%;
 }
 
 .social {
     background-image: url("../app/assets/img/like.png");
 }
-
 
 .counter {
     color: white;
@@ -164,7 +170,7 @@ h2 {
 }
 
 .bluem-div {
-    background:#9DDFCD;
+    background:#00B6B9;
 }
 
 .blue-div {
@@ -207,6 +213,11 @@ h2 {
     text-align: center;
 }
 
+.modal .modal-content {
+    padding: 24px;
+    text-align: center;
+}
+
 .graphicElement{
     border-bottom: 12px solid rgba(33, 222, 206, 1);
     height: 0 !important;
@@ -219,4 +230,62 @@ h2 {
     position: absolute;
     margin-top: 25%;
     margin-left: 39%;
+}
+
+#linkedIn {
+    text-transform: initial;
+}
+
+#social-div {
+    background-color: rgba(255, 255, 255,0.77);
+}
+
+#descubre {
+    background-color: white;
+    color: #00B6B9;
+    text-transform: none;
+    width: 260px;
+    font-size: 24px;
+}
+
+#descubre:hover {
+    background-color: #ff712d;
+    color: white;
+}
+
+#equipo {
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    border-color: white;
+    border-style: solid; 
+    text-transform: none;
+    width: 260px;
+}
+
+#equipo:hover {
+    background-color: #ff712d;
+    color: white;
+    border-style: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+.visible {
+    visibility: visible;
+}
+
+nav ul a {
+    color: #3a4d57;
+    font-weight: 500;
+}
+
+.side-nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.yellow-div {
+    background-color: rgb(255, 194, 76);
 }
