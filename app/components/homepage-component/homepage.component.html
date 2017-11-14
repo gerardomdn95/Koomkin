@@ -172,15 +172,24 @@
         <div id="modal1" class="modal modal-fixed-footer">
             <div class="modal-content">
                 <h4>Vacantes</h4>
-                <hr>
-                <p>Inicia sesión con LinkedIn</p>
-                <a id="linkedIn" class="waves-effect waves-light btn blue">
-                    Login with Linkedin
-                    <div class="fa fa-linkedin"></div>
-                </a>
-                <p>o</p>
-                <p>Adjunta tu CV aquí</p>
-                <input type="file">
+                <form action="">
+                    <div class="input-field">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Nombre</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="last_name" type="email" class="validate">
+                        <label for="last_name">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="last_name" type="number" class="validate">
+                        <label for="last_name">Teléfono</label>
+                    </div>
+                    <p>Adjunta tu CV aquí</p>
+                    <input type="file">
+                    <br>
+                    <a id="enviar" class="waves-effect waves-light btn center">Enviar</a>
+                </form>
             </div>
             <div class="modal-footer">
                 <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Salir</a>
@@ -196,25 +205,45 @@
                     <div class="graphicElement">
                     </div>
                     <h1>
-                        <b>Datos divertidos</b>
+                        <b>Nuestros resultados</b>
                     </h1>
                 </div>
                 <div class="col l3 m3 s12">
-                    <h2 class="counter timer count-title count-number" data-to="8000" data-speed="1500"></h2>
-                    <h5>Clientes contentos</h5>
+                    <div class="carta">
+                        <div class="mas">
+                            <h2 style="color: white;">+ </h2>
+                            <h2 class="counter timer count-title count-number" data-to="8000" data-speed="1500"></h2>
+                        </div>
+                        <h5>Clientes contentos</h5>
+                    </div>
                 </div>
                 <div class="col l3 m3 s12">
-                    <h2 class="counter timer count-title count-number" data-to="50000" data-speed="1500"></h2>
-                    <h5>Impresiones en los principales canales digitales</h5>
+                    <div class="carta">
+                        <div class="mas">
+                            <h2 style="color: white;">+ </h2>
+                            <h2 class="counter timer count-title count-number" data-to="50000" data-speed="1500"></h2>
+                        </div>
+                        <h5>Impresiones en los principales canales digitales</h5>
+                    </div>
                 </div>
                 <div class="col l3 m3 s12">
-                    <h2 class="counter timer count-title count-number" data-to="11000" data-speed="1500"></h2>
-                    <h5>Prospectos mensuales para nuestros clientes</h5>
+                    <div class="carta">
+                        <div class="mas">
+                            <h2 style="color: white;">+ </h2>
+                            <h2 class="counter timer count-title count-number" data-to="11000" data-speed="1500"></h2>
+                        </div>
+                        <h5>Prospectos mensuales para nuestros clientes</h5>
+                    </div>
                 </div>
                 <div class="col l3 m3 s12">
-                    <h2 class="counter timer count-title count-number" data-to="16000" data-speed="1500"></h2>
+                    <div class="carta">
+                        <div class="mas">
+                            <h2 style="color: white;">+ </h2>
+                            <h2 class="counter timer count-title count-number" data-to="16000" data-speed="1500"></h2>
+                        </div>
+                        <h5>Reacciones en redes sociales</h5>
+                    </div>
                 </div>
-                <h5>Tazas de café</h5>
             </div>
         </div>
     </div>
@@ -229,27 +258,32 @@
         </h1>
         <div class="row">
             <div class="col l6 m6 s12">
-                <form action="">
-                    <div class="input-field">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Nombre</label>
+                <div class="card">
+                    <div class="card-content">
+                        <form action="">
+                            <div class="input-field">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Nombre</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="last_name" type="email" class="validate">
+                                <label for="last_name">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Asunto</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Mensaje</label>
+                            </div>
+                            <a id="enviar" class="waves-effect waves-light btn">Enviar</a>
+                            <br>
+                            <br>
+                            <br>
+                        </form>
                     </div>
-                    <div class="input-field">
-                        <input id="last_name" type="email" class="validate">
-                        <label for="last_name">Email</label>
-                    </div>
-                    <div class="input-field">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Asunto</label>
-                    </div>
-                    <div class="input-field">
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">Mensaje</label>
-                    </div>
-                    <a id="enviar" class="waves-effect waves-light btn">Enviar</a>
-                    <br>
-                    <br>
-                </form>
+                </div>
             </div>
             <div class="adress col l6 m6 s12">
                 <b>Queremos escuchar sobre ti</b>

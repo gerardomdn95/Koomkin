@@ -63,6 +63,16 @@
     .socialBackground {
         height: -webkit-fill-available !important;
     }
+    .carta {
+        color: #3a4d57;
+        background-color: white;
+        margin: 10px;
+        text-align: left !important;
+    }
+    .counter {
+        color: #3a4d57 !important;
+    }
+    
 }
 
 nav {
@@ -187,7 +197,7 @@ h2 {
 }
 
 .dblue-div {
-    background-color: #007cae;
+    background-color: #0094D8;
 }
 
 .tabs.tabs-transparent .tab a.active {
@@ -249,7 +259,7 @@ h2 {
 }
 
 #descubre:hover {
-    background-color: #ff712d;
+    background-color:#ff712d;
     color: white;
 }
 
@@ -288,4 +298,14 @@ nav ul a {
 
 .yellow-div {
     background-color: rgb(255, 194, 76);
+}
+
+.carta {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+}
+
+.mas {
+    display: -webkit-inline-box;
+    color: white;
 }
