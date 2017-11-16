@@ -107,7 +107,7 @@
                 </h2>
             </div>
             <div class="col l5 m5 s12">
-                <img id="app" src="app/assets/img/app.png" alt="">
+                <img id="app" src="app/assets/img/animacion.gif" alt="">
             </div>
         </div>
     </div>
@@ -172,7 +172,7 @@
         <div id="modal1" class="modal modal-fixed-footer">
             <div class="modal-content">
                 <h4>Vacantes</h4>
-                <form action="">
+                <form id="gform" action="POST" action="https://script.google.com/macros/s/AKfycbw_XxVbquTDFI9NMSeNEjXgZVrw_akG_uRwUzTp6aRkfxuzncA/exec">
                     <div class="input-field">
                         <input id="last_name" type="text" class="validate">
                         <label for="last_name">Nombre</label>
@@ -260,26 +260,24 @@
             <div class="col l6 m6 s12">
                 <div class="card">
                     <div class="card-content">
-                        <form action="">
+                        <form action="https://formspree.io/gerardo.mdn95@gmail.com" method="POST">
                             <div class="input-field">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Nombre</label>
+                                <input type="text" name="Nombre" class="validate" required>
+                                <label>Nombre</label>
                             </div>
                             <div class="input-field">
-                                <input id="last_name" type="email" class="validate">
-                                <label for="last_name">Email</label>
+                                <input type="email" name="email" class="validate" required>
+                                <label>Email</label>
                             </div>
                             <div class="input-field">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Asunto</label>
+                                <input type="text" name="Asunto" class="validate" required>
+                                <label>Asunto</label>
                             </div>
                             <div class="input-field">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Mensaje</label>
+                                <textarea id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
+                                <label>Mensaje</label>
                             </div>
-                            <a id="enviar" class="waves-effect waves-light btn">Enviar</a>
-                            <br>
-                            <br>
+                            <button id="enviar" class="waves-effect waves-light btn" type="submit" type="submit">Send</button>
                             <br>
                         </form>
                     </div>
