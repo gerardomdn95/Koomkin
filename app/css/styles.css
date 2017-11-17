@@ -20,12 +20,6 @@
 }
 
 @media (max-width: 767px) {
-    .socialBackground {
-        height: -webkit-fill-available !important;
-    }
-}
-
-@media (max-width: 480px) {
     h2 {
         font-size: 35px;
         font-weight: 400 !important;
@@ -118,9 +112,11 @@ nav {
     width: 100%;
 }
 
-#completePhone {
-    height: auto;
-    width: 75%;
+#prospectos {
+    height: auto !important;
+    width: 25% !important;
+    position: absolute !important;
+    margin-top: -10% !important;
 }
 
 #foot {

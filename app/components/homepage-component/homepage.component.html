@@ -1,9 +1,9 @@
-<div class="parallax-container valign-wrapper bluem-div">
+<div id="inicio" class="parallax-container valign-wrapper bluem-div">
     <div class="navbar-fixed">
         <nav>
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">
+                    <a href="#inicio" class="brand-logo">
                         <img class="navlogo" height="25px" src="app/assets/img/Logo_Koomkin.png" alt="">
                     </a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse">
@@ -14,13 +14,13 @@
                             <a href="#inicio">Inicio</a>
                         </li>
                         <li class="tab">
-                            <a class="active" href="#servicio">Servicios</a>
+                            <a href="#second">Servicios</a>
                         </li>
                         <li class="tab">
-                            <a href="#nosotros">Nosotros</a>
+                            <a href="#third">Nosotros</a>
                         </li>
                         <li class="tab">
-                            <a href="#contacto">Equipo</a>
+                            <a href="#fourth">Equipo</a>
                         </li>
                         <li class="tab">
                             <a href="#contacto">Contacto</a>
@@ -31,13 +31,13 @@
                             <a href="#inicio">Inicio</a>
                         </li>
                         <li>
-                            <a class="active" href="#servicio">Servicios</a>
+                            <a href="#servicios">Servicios</a>
                         </li>
                         <li>
                             <a href="#nosotros">Nosotros</a>
                         </li>
                         <li>
-                            <a href="#contacto">Equipo</a>
+                            <a href="#equipo">Equipo</a>
                         </li>
                         <li>
                             <a href="#contacto">Contacto</a>
@@ -57,10 +57,11 @@
             <hr>
             <h2 style="color: white">Te presentamos el canal de ventas
                 <b></b>No. 1 para PYMES</b> en México.</h2>
-            <a  id="descubre" class="btn-large" href="#second">Descubre más</a>
+            <a id="descubre" class="btn-large" href="#second">Descubre más</a>
         </div>
     </div>
 </div>
+
 <div id="second" class="parallax-container valign-wrapper blue-div">
     <div class="row">
         <div id="cinta" class="col l6 m6 s12">
@@ -148,7 +149,7 @@
                 </h2>
             </div>
             <div class="col l4 m4 s12">
-                <img id="completePhone" src="app/assets/img/telefono-completo.png" alt="">
+                <img id="prospectos" src="app/assets/img/prospectos.gif" alt="">
             </div>
         </div>
     </div>
@@ -173,7 +174,7 @@
             <div class="modal-content">
                 <h4>Vacantes</h4>
                 <div class="container">
-                    <form id="gform" action="POST" action="https://script.google.com/macros/s/AKfycbw_XxVbquTDFI9NMSeNEjXgZVrw_akG_uRwUzTp6aRkfxuzncA/exec">
+                    <!-- <form id="gform" action="POST" action="https://script.google.com/macros/s/AKfycbw_XxVbquTDFI9NMSeNEjXgZVrw_akG_uRwUzTp6aRkfxuzncA/exec">
                         <div class="input-field">
                             <input id="last_name" type="text" class="validate">
                             <label for="last_name">Nombre</label>
@@ -190,6 +191,30 @@
                         <input type="file">
                         <br>
                         <a id="enviar" class="waves-effect waves-light btn center">Enviar</a>
+                    </form> -->
+                    <form action="https://formspree.io/gerardo.mdn95@gmail.com" method="POST">
+                        <div class="input-field">
+                            <input type="text" name="Nombre" class="validate" required>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="email" class="validate" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="Asunto" class="validate" required>
+                            <label>Asunto</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
+                            <label>Mensaje</label>
+                        </div>
+                        <div "input-field">
+                            <p>Adjunta tu CV aquí</p>
+                            <input name="CV" type="file">
+                        </div>
+                        <button id="enviar" class="waves-effect waves-light btn" type="submit" type="submit">Send</button>
+                        <br>
                     </form>
                 </div>
             </div>
@@ -251,7 +276,7 @@
     </div>
 </div>
 
-<div class="parallax-container valign-wrapper yellow-div">
+<div id="contacto" class="parallax-container valign-wrapper yellow-div">
     <div class="container">
         <div class="graphicElement">
         </div>
