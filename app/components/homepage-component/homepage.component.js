@@ -14,8 +14,10 @@
     function homeCtrl() {
         var vm = this;
 
-        var $up = $('.up');
-        var $down = $('.down');
+        var $up1 = $('.up1');
+        var $down1 = $('.down1');
+        var $up2 = $('.up2');
+        var $down2 = $('.down2');
 
         var $win = $(window);
 
@@ -146,8 +148,10 @@
 
         $win.on('scroll', function () {
             var top = $win.scrollTop() / 3;
-            $up.css('transform', 'translateY(' + top * .5 + 'px)');
-            $down.css('transform', 'translateY(' + top * -.5 + 'px)');
+            $up1.css('transform', 'translateY(' + top * .5 + 'px)');
+            $down1.css('transform', 'translateY(' + top * -.5 + 'px)');
+            $up2.css('transform', 'translateY(' + top * .5 + 'px)');
+            $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
         });
     }
 

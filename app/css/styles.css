@@ -1,5 +1,10 @@
 @media (min-width: 1200px){
-
+    #phone {
+        width: 45% !important;
+    }
+    #lead {
+        width: 45% !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -9,7 +14,7 @@
     #lead {
         margin-top: 120px;
     }
-        .socialBackground {
+    .socialBackground {
         height: -webkit-fill-available !important;
     }
 }
@@ -52,11 +57,6 @@
     #cinta {
         visibility: hidden !important;
     }
-    #negocios {
-        position: absolute;
-        margin-top: 90% !important;
-        margin-left: 0% !important;
-    }
     .socialMedia{
         font-size: 35px !important;
     }
@@ -92,8 +92,8 @@ nav {
 }
 
 #cinta {
-    margin-left: -20px;
-    transform: rotate(-15deg);
+    /* margin-left: -20px;
+    transform: rotate(-15deg); */
 }
 
 #phone {
@@ -237,9 +237,9 @@ h2 {
 }
 
 #negocios {
-    position: absolute;
-    margin-top: 25%;
-    margin-left: 39%;
+    /* position: absolute;
+    margin-top: 30%;
+    margin-left: 53%; */
 }
 
 #linkedIn {
@@ -308,4 +308,34 @@ nav ul a {
 .mas {
     display: -webkit-inline-box;
     color: white;
+}
+.up1 {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    margin-top: -65%;
+}
+.down1 {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    margin-left: 20.5%;
+    margin-top: -40%;
+}
+.up2 {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    margin-left: 41%;
+    margin-top: -65%;
+}
+.down2 {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    margin-left: 61.5%;
+    margin-top: -40%;
+}
+#cinta {
+    transform: rotate(-10deg);
 }

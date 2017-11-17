@@ -1,0 +1,11 @@
+#regresa {
+    background-color: white;
+    color: #00B6B9;
+    text-transform: none;
+    width: 260px;
+    font-size: 16px;
+}
+#regresa:hover {
+    background-color:#ff712d;
+    color: white;
+}
