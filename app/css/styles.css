@@ -1,5 +1,5 @@
 @media (min-width: 1200px){
-    #phone {
+    #phonee {
         width: 45% !important;
     }
     #lead {
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    #phone {
+    #phonee {
         margin-top: 120px;
     }
     #lead {
@@ -37,7 +37,7 @@
     #thirdLeft {
         margin-top: 50%;
     }
-    #phone {
+    #phonee {
         margin-top: 15%;
         width: 120% !important;
     }
@@ -85,7 +85,7 @@ nav {
     z-index: 996;
 }
 
-#phone {
+#phonee {
     position: absolute;
     left: -5%;
     top: -0%;

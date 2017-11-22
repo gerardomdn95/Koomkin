@@ -51,7 +51,7 @@
     </div>
     <div class="row">
         <div class="col l5 m5 s12">
-            <img id="phone" class="animated fadeInLeft" src="app/assets/img/telefono-sin-Lead.png" alt="">
+            <img id="phonee" class="animated fadeInLeft" src="app/assets/img/telefono-sin-Lead.png" alt="">
             <img id="lead" class="animated zoomIn" src="app/assets/img/solo-el-Lead.png" alt="">
         </div>
         <div id="cuantos" class="col l7 m7 s12 animated fadeInRight">
@@ -274,24 +274,28 @@
             <div class="col l6 m6 s12">
                 <div class="card">
                     <div class="card-content">
-                        <form action="https://formspree.io/mgarcia@koomkin.com" method="POST">
+                        <form>
                             <div class="input-field">
-                                <input type="text" name="Nombre" class="validate" required>
+                                <input id="name" type="text" name="Nombre" class="validate" required>
                                 <label>Nombre</label>
                             </div>
                             <div class="input-field">
-                                <input type="email" name="email" class="validate" required>
+                                <input id="email" type="email" name="email" class="validate" required>
                                 <label>Email</label>
                             </div>
                             <div class="input-field">
-                                <input type="text" name="Asunto" class="validate" required>
+                                <input id="phone" type="number" min="7" name="phone" class="validate" required>
+                                <label>Teléfono</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="subject" type="text" name="Asunto" class="validate" required>
                                 <label>Asunto</label>
                             </div>
                             <div class="input-field">
-                                <textarea id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
+                                <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
                                 <label>Mensaje</label>
                             </div>
-                            <button id="enviar" class="waves-effect waves-light btn" type="submit" type="submit">Send</button>
+                            <button id="enviar" class="waves-effect waves-light btn" type="submit" onClick="insert_value()" value="Insert">Send</button>
                             <br>
                         </form>
                     </div>
@@ -308,21 +312,6 @@
         </div>
     </div>
 </div>
-
-<form>
-    Name
-    <input type="text" name="name" id="name"> email
-    <input type="email" name="email" id="email"> phone
-    <input type="number" name="phone" id="phone"> subject
-    <input type="text" name="subject" id="subject"> message
-    <input type="text" name="message" id="message">
-</form>
-
-<div id="loader"></div>
-
-<p id="re"></p>
-
-<input type="button" id="b1" onClick="insert_value()" value="Insert"></input>
 
 <script>var script_url = "https://script.google.com/macros/s/AKfycbzw9rPHoTxQmsoE1Qa6ZDVdkxTEtJIBUwsO-yL8HtIPJLu3ZpY/exec";
 
