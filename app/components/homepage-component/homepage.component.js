@@ -19,7 +19,7 @@
         var $up2 = $('.up2');
         var $down2 = $('.down2');
 
-        var $win = $(window);
+        var $win = $(window);        
         
         $(document).ready(function () {
             $('.parallax').parallax();
@@ -170,5 +170,4 @@
             $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
         });
     }
-
 })();

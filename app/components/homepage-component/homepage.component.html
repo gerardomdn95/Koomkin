@@ -309,6 +309,42 @@
     </div>
 </div>
 
+<form>
+    Name
+    <input type="text" name="name" id="name"> email
+    <input type="email" name="email" id="email"> phone
+    <input type="number" name="phone" id="phone"> subject
+    <input type="text" name="subject" id="subject"> message
+    <input type="text" name="message" id="message">
+</form>
+
+<div id="loader"></div>
+
+<p id="re"></p>
+
+<input type="button" id="b1" onClick="insert_value()" value="Insert"></input>
+
+<script>var script_url = "https://script.google.com/macros/s/AKfycbzw9rPHoTxQmsoE1Qa6ZDVdkxTEtJIBUwsO-yL8HtIPJLu3ZpY/exec";
+
+    function insert_value() {
+
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var phone = $("#phone").val();
+        var subject = $("#subject").val();
+        var message = $("#message").val();
+
+        var url = script_url + "?callback=ctrlq&name=" + name + "&email=" + email + "&phone=" + phone + "&subject=" + subject + "&message=" + message + "&action=insert";
+
+        var request = jQuery.ajax({
+            crossDomain: true,
+            url: url,
+            method: "GET",
+            dataType: "jsonp"
+        });
+    }
+</script>
+
 <footer class="page-footer gray-div">
     <div class="footer-copyright">
         <div class="container">
