@@ -1,4 +1,6 @@
 <div id="inicio" class="parallax-container valign-wrapper bluem-div">
+    <div class="triangle1"></div>
+    <div class="triangle2"></div>
     <div class="navbar-fixed">
         <nav>
             <div class="container">
@@ -49,10 +51,10 @@
     </div>
     <div class="row">
         <div class="col l5 m5 s12">
-            <img id="phone" class="animated zoomIn" src="app/assets/img/telefono-sin-Lead.png" alt="">
+            <img id="phone" class="animated fadeInLeft" src="app/assets/img/telefono-sin-Lead.png" alt="">
             <img id="lead" class="animated zoomIn" src="app/assets/img/solo-el-Lead.png" alt="">
         </div>
-        <div id="cuantos" class="col l7 m7 s12 animated zoomIn">
+        <div id="cuantos" class="col l7 m7 s12 animated fadeInRight">
             <h1>¿Cuántos clientes nuevos quieres hoy?</h1>
             <hr>
             <h2 style="color: white">Te presentamos el canal de ventas
@@ -70,10 +72,10 @@
             <img class="up2" src="app/assets/img/3.png" alt="">
             <img class="down2" src="app/assets/img/4.png" alt="">
         </div>
-        <div id="negocios" class="col l6 m6 s12">
+        <div id="negocios" class="col l6 m6 s12 invisible">
             <div class="graphicElement">
             </div>
-            <div class="secondElements invisible">
+            <div class="secondElements">
                 <h1>
                     <b>Para todos los negocios</b>
                 </h1>
@@ -84,10 +86,11 @@
         </div>
     </div>
 </div>
+
 <div id="third" class="parallax-container valign-wrapper gray-div">
     <div class="container">
-        <div class="row thirdElements invisible">
-            <div id="unAlgoritmo" class="col l7 m7 s12">
+        <div class="row">
+            <div id="thirdLeft" class="col l7 m7 s12 invisible">
                 <div class="graphicElement">
                 </div>
                 <h1>
@@ -107,48 +110,50 @@
                     </div>
                 </h2>
             </div>
-            <div class="col l5 m5 s12">
-                <img id="app" src="app/assets/img/animacion.gif" alt="">
+            <div id="thirdRight" class="col l5 m5 s12 invisible">
+                <img class="algoritmo" src="app/assets/img/animacion.gif" alt="">
             </div>
         </div>
     </div>
 </div>
+
 <div id="fourth" class="parallax-container valign-wrapper bluem-div">
-    <div class="container">
-        <div class="row fourthElements invisible">
-            <div class="col l7 m7 s12">
-                <img id="app" src="app/assets/img/app.png" alt="">
+    <div class="row">
+        <div id="fourthLeft" class="col l5 m5 s12 invisible">
+            <div class="graphicElement">
             </div>
-            <div class="col l5 m5 s12">
-                <div class="graphicElement">
-                </div>
-                <h1>
-                    <b>Información a tiempo</b>
-                </h1>
-                <h2>Ingresa desde nuestra App y evalúa en tiempo real el
-                    <b>desempeño de tu campaña.</b>
-                </h2>
-            </div>
+            <h1>
+                <b>Información a tiempo</b>
+            </h1>
+            <h2>Ingresa desde nuestra App y evalúa en tiempo real el
+                <b>desempeño de tu campaña.</b>
+            </h2>
+        </div>
+        <div class="col l7 m7 s12">
+            <img id="app1" class="invisible" src="app/assets/img/app1.png" alt="">
+            <img id="app2" class="invisible" src="app/assets/img/app2.png" alt="">
+            <img id="app3" class="invisible" src="app/assets/img/app3.png" alt="">
         </div>
     </div>
 </div>
+
 <div id="social-div" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="socialBackground" src="app/assets/img/fondo.svg">
     </div>
-    <div class="container socialElements invisible">
+    <div class="socialElements invisible">
         <div class="graphicElement">
         </div>
         <h1 style="color: #3a4d57">
             <b>Optimiza tu campaña</b>
         </h1>
         <div class="row">
-            <div class="col l8 m8 s12">
+            <div class="col l6 m6 s12">
                 <h2>Evalúa tus prospectos y Koomkin logic se configura para
                     <b>mandarte solamente prospectos que te sirvan.</b>
                 </h2>
             </div>
-            <div class="col l4 m4 s12">
+            <div class="col l6 m6 s12">
                 <img id="prospectos" src="app/assets/img/prospectos.gif" alt="">
             </div>
         </div>
@@ -174,24 +179,6 @@
             <div class="modal-content">
                 <h4>Vacantes</h4>
                 <div class="container">
-                    <!-- <form id="gform" action="POST" action="https://script.google.com/macros/s/AKfycbw_XxVbquTDFI9NMSeNEjXgZVrw_akG_uRwUzTp6aRkfxuzncA/exec">
-                        <div class="input-field">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Nombre</label>
-                        </div>
-                        <div class="input-field">
-                            <input id="last_name" type="email" class="validate">
-                            <label for="last_name">Email</label>
-                        </div>
-                        <div class="input-field">
-                            <input id="last_name" type="number" class="validate">
-                            <label for="last_name">Teléfono</label>
-                        </div>
-                        <p>Adjunta tu CV aquí</p>
-                        <input type="file">
-                        <br>
-                        <a id="enviar" class="waves-effect waves-light btn center">Enviar</a>
-                    </form> -->
                     <form action="https://formspree.io/gerardo.mdn95@gmail.com" method="POST">
                         <div class="input-field">
                             <input type="text" name="Nombre" class="validate" required>
@@ -287,7 +274,7 @@
             <div class="col l6 m6 s12">
                 <div class="card">
                     <div class="card-content">
-                        <form action="https://formspree.io/gerardo.mdn95@gmail.com" method="POST">
+                        <form action="https://formspree.io/mgarcia@koomkin.com" method="POST">
                             <div class="input-field">
                                 <input type="text" name="Nombre" class="validate" required>
                                 <label>Nombre</label>

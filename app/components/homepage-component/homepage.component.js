@@ -38,19 +38,23 @@
                 });
             });
             $('#second').mouseover(function () {
-                $('.secondElements').addClass("visible animated zoomIn");
+                $('#negocios').addClass("visible animated fadeInRight");
             });
             $('#third').mouseover(function () {
-                $('.thirdElements').addClass("visible animated zoomIn");
+                $('#thirdLeft').addClass("visible animated fadeInLeft");
+                $('#thirdRight').addClass("visible animated fadeInRight");
             });
             $('#fourth').mouseover(function () {
-                $('.fourthElements').addClass("visible animated zoomIn");
+                $('#fourthLeft').addClass("visible animated fadeInLeft");
+                $('#app1').addClass("visible animated fadeInDown");
+                $('#app2').addClass("visible animated fadeInDown");
+                $('#app3').addClass("visible animated fadeInDown");
             });
             $('#social-div').mouseover(function () {
                 $('.socialElements').addClass("visible animated zoomIn");
             });
             $('#team').mouseover(function () {
-                $('.teamElements').addClass("visible animated zoomIn");
+                $('.teamElements').addClass("visible animated fadeInRight");
             });
             $('#team').mouseover(function () {
                 $('.teamElements').addClass("visible animated zoomIn");

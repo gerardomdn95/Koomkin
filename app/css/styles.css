@@ -34,7 +34,7 @@
     #cuantos {
         margin-top: 140%;
     }
-    #unAlgoritmo {
+    #thirdLeft {
         margin-top: 50%;
     }
     #phone {
@@ -85,11 +85,6 @@ nav {
     z-index: 996;
 }
 
-#cinta {
-    /* margin-left: -20px;
-    transform: rotate(-15deg); */
-}
-
 #phone {
     position: absolute;
     left: -5%;
@@ -107,16 +102,41 @@ nav {
     width: 45%;
 }
 
-#app {
+#app1 {
     height: auto;
-    width: 100%;
+    width: 40%;
+    position: absolute;
+    margin-top: -10%;
+    -webkit-animation-delay: .5s;
+}
+#app2 {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 10%;
+    -webkit-animation-delay: 1s;
+}
+#app3 {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 20%;
+    -webkit-animation-delay: 1.5s;
+}
+
+.algoritmo {
+    height: auto;
+    width: 90%;
 }
 
 #prospectos {
-    height: auto !important;
-    width: 25% !important;
-    position: absolute !important;
-    margin-top: -10% !important;
+    height: auto;
+    width: 33%;
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 8%;
 }
 
 #foot {
@@ -232,18 +252,12 @@ h2 {
     position: absolute;
 }
 
-#negocios {
-    /* position: absolute;
-    margin-top: 30%;
-    margin-left: 53%; */
-}
-
 #linkedIn {
     text-transform: initial;
 }
 
 #social-div {
-    background-color: rgba(255, 255, 255,0.77);
+    background-color: rgba(255, 255, 255,0.85);
 }
 
 #descubre {
@@ -334,4 +348,22 @@ nav ul a {
 }
 #cinta {
     transform: rotate(-10deg);
+}
+.triangle1 {
+    background-color: rgba(255, 255, 255, .9);
+    height: 1450px;
+    width: 500px;
+    position: absolute;
+    margin-top: -764px;
+    transform: rotate(50deg);
+}
+
+.triangle2 {
+    background-color: rgba(255, 255, 255, .9);
+    height: 1450px;
+    width: 500px;
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 710px;
+    transform: rotate(50deg);
 }
