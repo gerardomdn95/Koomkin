@@ -19,18 +19,18 @@
         var $up2 = $('.up2');
         var $down2 = $('.down2');
 
-        var $win = $(window);        
-        
+        var $win = $(window);
+
         $(document).ready(function () {
             $('.parallax').parallax();
             $('.modal').modal();
             $(".button-collapse").sideNav();
-            $('a[href^="#"]').on('click',function (e) {
+            $('a[href^="#"]').on('click', function (e) {
                 e.preventDefault();
-        
+
                 var target = this.hash,
-                $target = $(target);
-        
+                    $target = $(target);
+
                 $('html, body').stop().animate({
                     'scrollTop': $target.offset().top
                 }, 900, 'swing', function () {
@@ -168,6 +168,11 @@
             $down1.css('transform', 'translateY(' + top * -.5 + 'px)');
             $up2.css('transform', 'translateY(' + top * .5 + 'px)');
             $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
+        });
+        $("#mensajeContacto").hide();
+        $("#ocultador").click(function(){
+            $("#formulario").hide();
+            $("#mensajeContacto").show();
         });
     }
 })();

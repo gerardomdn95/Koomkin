@@ -275,27 +275,30 @@
                 <div class="card">
                     <div class="card-content">
                         <form>
-                            <div class="input-field">
-                                <input id="name" type="text" name="Nombre" class="validate" required>
-                                <label>Nombre</label>
+                            <h4 id="mensajeContacto">Nos pondremos en contacto contigo.</h1>
+                            <div id="formulario">
+                                <div class="input-field">
+                                    <input id="name" type="text" name="Nombre" class="validate" required>
+                                    <label>Nombre</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="email" type="email" name="email" class="validate" required>
+                                    <label>Email</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="phone" type="number" min="7" name="phone" class="validate" required>
+                                    <label>Teléfono</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="subject" type="text" name="Asunto" class="validate" required>
+                                    <label>Asunto</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
+                                    <label>Mensaje</label>
+                                </div>
+                                <button id="enviar" class="waves-effect waves-light btn" type="submit" onClick="insert_value()" value="Insert">Send</button>
                             </div>
-                            <div class="input-field">
-                                <input id="email" type="email" name="email" class="validate" required>
-                                <label>Email</label>
-                            </div>
-                            <div class="input-field">
-                                <input id="phone" type="number" min="7" name="phone" class="validate" required>
-                                <label>Teléfono</label>
-                            </div>
-                            <div class="input-field">
-                                <input id="subject" type="text" name="Asunto" class="validate" required>
-                                <label>Asunto</label>
-                            </div>
-                            <div class="input-field">
-                                <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
-                                <label>Mensaje</label>
-                            </div>
-                            <button id="enviar" class="waves-effect waves-light btn" type="submit" onClick="insert_value()" value="Insert">Send</button>
                             <br>
                         </form>
                     </div>
@@ -340,4 +343,7 @@
             © 2017 Grupo Koomkin
         </div>
     </div>
+    <button id="ocultador">Oculta</button>
+    <h1 id="ocultado">Hola</h1>
+    <h1 id="mostrado">Ahora me veo yo</h1>
 </footer>
