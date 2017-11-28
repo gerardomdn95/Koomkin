@@ -21,6 +21,8 @@
 
         var $win = $(window);
 
+        $("#mensajeContacto").hide();
+
         $(document).ready(function () {
             $('.parallax').parallax();
             $('.modal').modal();
@@ -51,7 +53,8 @@
                 $('#app3').addClass("visible animated fadeInDown");
             });
             $('#social-div').mouseover(function () {
-                $('.socialElements').addClass("visible animated zoomIn");
+                $('#optimiza').addClass("visible animated fadeInLeft");
+                $('#likes').addClass("visible animated fadeInRight");
             });
             $('#team').mouseover(function () {
                 $('.teamElements').addClass("visible animated fadeInRight");
@@ -60,7 +63,11 @@
                 $('.teamElements').addClass("visible animated zoomIn");
             });
             $('#datos').mouseover(function () {
-                $('.datosElements').addClass("visible animated zoomIn");
+                $('#datosDiv').addClass("visible animated zoomIn");                
+                $('#un').addClass("visible animated zoomIn");
+                $('#dos').addClass("visible animated zoomIn");
+                $('#tres').addClass("visible animated zoomIn");
+                $('#cuatro').addClass("visible animated zoomIn");
                 (function ($) {
                     $.fn.countTo = function (options) {
                         options = options || {};
@@ -169,10 +176,11 @@
             $up2.css('transform', 'translateY(' + top * .5 + 'px)');
             $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
         });
-        $("#mensajeContacto").hide();
-        $("#ocultador").click(function(){
+
+        $('#enviar').click(function(){
             $("#formulario").hide();
             $("#mensajeContacto").show();
+            $('#mensajeContacto').addClass("visible animated fadeIn");
         });
     }
 })();

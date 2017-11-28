@@ -1,6 +1,4 @@
-<div id="inicio" class="parallax-container valign-wrapper bluem-div">
-    <div class="triangle1"></div>
-    <div class="triangle2"></div>
+<div id="inicio" class="parallax-container valign-wrapper vid-div">
     <div class="navbar-fixed">
         <nav>
             <div class="container">
@@ -50,18 +48,24 @@
         </nav>
     </div>
     <div class="row">
-        <div class="col l5 m5 s12">
+        <div id="cuantos" class="col s12 m6 s6 animated fadeInRight">
+            <h1>¿Cuántos clientes nuevos quieres hoy?</h1>
+            <hr>
+            <h2 style="color: white">Te presentamos el
+                <b>canal de ventas Nº1
+                    <br> para PYMES en México.</b>
+            </h2>
+        </div>
+        <div class="col s12 m6 s6">
             <img id="phonee" class="animated fadeInLeft" src="app/assets/img/telefono-sin-Lead.png" alt="">
             <img id="lead" class="animated zoomIn" src="app/assets/img/solo-el-Lead.png" alt="">
         </div>
-        <div id="cuantos" class="col l7 m7 s12 animated fadeInRight">
-            <h1>¿Cuántos clientes nuevos quieres hoy?</h1>
-            <hr>
-            <h2 style="color: white">Te presentamos el canal de ventas
-                <b></b>No. 1 para PYMES</b> en México.</h2>
-            <a id="descubre" class="btn-large" href="#second">Descubre más</a>
-        </div>
     </div>
+    <div class="triangle1"></div>
+    <div class="triangle2"></div>
+    <video autoplay loop id="video-background" muted plays-inline>
+        <source src="app/assets/vid/koomkinWebVideo.mp4" type="video/mp4">
+    </video>
 </div>
 
 <div id="second" class="parallax-container valign-wrapper blue-div">
@@ -77,10 +81,10 @@
             </div>
             <div class="secondElements">
                 <h1>
-                    <b>Para todos los negocios</b>
+                    <b>Para todas las empresas</b>
                 </h1>
-                <h2>Koomkin está diseñado para funcionar
-                    <b>con cualquier tipo de empresa, sin importar su giro o su tamaño.</b>
+                <h2 class="thicker">Koomkin esta diseñado para ayudar a
+                    <b>cualquier tipo de empresa o negocio</b> a incrementar sus ventas, sin importar su giro o tamaño.
                 </h2>
             </div>
         </div>
@@ -96,8 +100,8 @@
                 <h1>
                     <b>Un algoritmo inteligente</b>
                 </h1>
-                <h2 class="socialMedia">Nuestro sistema de inteligencia artificial identifica la cobertura óptima y
-                    <b>el canal más efectivo para que obtengas clientes nuevos.</b>
+                <h2 class="socialMedia">Nuestro sistema de inteligencia artificial toma desiciones para
+                    <b>reducir el costo por captar clientes nuevos y aumenta el retorno de inversión</b>
                     <div>
                         <br>
                         <div class="fa fa-instagram"></div>
@@ -125,8 +129,8 @@
             <h1>
                 <b>Información a tiempo</b>
             </h1>
-            <h2>Ingresa desde nuestra App y evalúa en tiempo real el
-                <b>desempeño de tu campaña.</b>
+            <h2>Ingresa desde nuestra App y evalúa en tiempo real,
+                <b>el desempeño de tu campaña.</b>
             </h2>
         </div>
         <div class="col l7 m7 s12">
@@ -142,20 +146,18 @@
         <img class="socialBackground" src="app/assets/img/fondo.svg">
     </div>
     <div class="socialElements invisible">
-        <div class="graphicElement">
-        </div>
-        <h1 style="color: #3a4d57">
-            <b>Optimiza tu campaña</b>
-        </h1>
         <div class="row">
-            <div class="col l6 m6 s12">
+            <div id="optimiza" class="col l6 m6 s12">
+                <div class="graphicElement">
+                </div>
+                <h1 style="color: #3a4d57">
+                    <b>Optimiza tu campaña</b>
+                </h1>
                 <h2>Evalúa tus prospectos y Koomkin logic se configura para
                     <b>mandarte solamente prospectos que te sirvan.</b>
                 </h2>
             </div>
-            <div class="col l6 m6 s12">
-                <img id="prospectos" src="app/assets/img/prospectos.gif" alt="">
-            </div>
+            <img class="col l6 m6 s12" id="likes" src="app/assets/img/prospectos.gif" alt="">
         </div>
     </div>
 </div>
@@ -169,7 +171,7 @@
                 <h1>
                     <b>Nuestro equipo</b>
                 </h1>
-                <h2 class="socialMedia">Contamos con más de 30 expertos para brindarte
+                <h2 class="socialMedia">Contamos con más de 50 expertos para brindarte
                     <b>las mejores herramientas digitales y el mejor servicio.</b>
                 </h2>
                 <a id="equipo" class="btn-large modal-trigger" href="#modal1">Únete a nuestro equipo</a>
@@ -218,12 +220,12 @@
                 <div class="col l12 m12 s12">
                     <div class="graphicElement">
                     </div>
-                    <h1>
-                        <b>Nuestros resultados</b>
+                    <h1 id="datosDiv">
+                        <b>Datos divertidos</b>
                     </h1>
                 </div>
                 <div class="col l3 m3 s12">
-                    <div class="carta">
+                    <div id="un" class="carta">
                         <div class="mas">
                             <h2 style="color: white;">+ </h2>
                             <h2 class="counter timer count-title count-number" data-to="8000" data-speed="1500"></h2>
@@ -232,7 +234,7 @@
                     </div>
                 </div>
                 <div class="col l3 m3 s12">
-                    <div class="carta">
+                    <div id="dos" class="carta">
                         <div class="mas">
                             <h2 style="color: white;">+ </h2>
                             <h2 class="counter timer count-title count-number" data-to="50000" data-speed="1500"></h2>
@@ -241,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col l3 m3 s12">
-                    <div class="carta">
+                    <div id="tres" class="carta">
                         <div class="mas">
                             <h2 style="color: white;">+ </h2>
                             <h2 class="counter timer count-title count-number" data-to="11000" data-speed="1500"></h2>
@@ -250,7 +252,7 @@
                     </div>
                 </div>
                 <div class="col l3 m3 s12">
-                    <div class="carta">
+                    <div id="cuatro" class="carta">
                         <div class="mas">
                             <h2 style="color: white;">+ </h2>
                             <h2 class="counter timer count-title count-number" data-to="16000" data-speed="1500"></h2>
@@ -275,31 +277,31 @@
                 <div class="card">
                     <div class="card-content">
                         <form>
-                            <h4 id="mensajeContacto">Nos pondremos en contacto contigo.</h1>
-                            <div id="formulario">
-                                <div class="input-field">
-                                    <input id="name" type="text" name="Nombre" class="validate" required>
-                                    <label>Nombre</label>
+                            <h4 id="mensajeContacto">Nos pondremos en contacto contigo</h1>
+                                <div id="formulario">
+                                    <div class="input-field">
+                                        <input id="name" type="text" name="Nombre" class="validate" required>
+                                        <label>Nombre</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input id="email" type="email" name="email" class="validate" required>
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input id="phone" type="number" min="7" name="phone" class="validate" required>
+                                        <label>Teléfono</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input id="subject" type="text" name="Asunto" class="validate" required>
+                                        <label>Asunto</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
+                                        <label>Mensaje</label>
+                                    </div>
+                                    <button id="enviar" class="waves-effect waves-light btn" type="submit" onClick="insert_value()" value="Insert">Enviar</button>
                                 </div>
-                                <div class="input-field">
-                                    <input id="email" type="email" name="email" class="validate" required>
-                                    <label>Email</label>
-                                </div>
-                                <div class="input-field">
-                                    <input id="phone" type="number" min="7" name="phone" class="validate" required>
-                                    <label>Teléfono</label>
-                                </div>
-                                <div class="input-field">
-                                    <input id="subject" type="text" name="Asunto" class="validate" required>
-                                    <label>Asunto</label>
-                                </div>
-                                <div class="input-field">
-                                    <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
-                                    <label>Mensaje</label>
-                                </div>
-                                <button id="enviar" class="waves-effect waves-light btn" type="submit" onClick="insert_value()" value="Insert">Send</button>
-                            </div>
-                            <br>
+                                <br>
                         </form>
                     </div>
                 </div>
@@ -343,7 +345,4 @@
             © 2017 Grupo Koomkin
         </div>
     </div>
-    <button id="ocultador">Oculta</button>
-    <h1 id="ocultado">Hola</h1>
-    <h1 id="mostrado">Ahora me veo yo</h1>
 </footer>
