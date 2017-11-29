@@ -17,6 +17,9 @@
     .socialBackground {
         height: -webkit-fill-available !important;
     }
+    #video-backfround{
+        height: -webkit-fill-available !important;        
+    }
 }
 
 @media (max-width: 767px) {
@@ -58,6 +61,9 @@
     }
     .socialBackground {
         height: -webkit-fill-available !important;
+    }
+    #video-backfround{
+        height: -webkit-fill-available !important;        
     }
     .carta {
         color: #3a4d57;
@@ -136,35 +142,33 @@ nav {
     height: auto;
     width: 40%;
     position: absolute;
-    margin-top: -10%;
+    margin-top: -37%;
+    margin-left: 20%;
     -webkit-animation-delay: .5s;
 }
 #app2 {
     height: auto;
     width: 40%;
     position: absolute;
-    margin-top: -5%;
-    margin-left: 13%;
+    margin-top: -27%;
+    margin-left: 33%;
     -webkit-animation-delay: 1s;
 }
 #app3 {
     height: auto;
     width: 40%;
     position: absolute;
-    margin-top: 0%;
-    margin-left: 26%;
+    margin-top: -17%;
+    margin-left: 46%;
     -webkit-animation-delay: 1.5s;
 }
-
 #fElements{
     margin-right: 35%;
 }
-
 .algoritmo {
     height: auto;
     width: 90%;
 }
-
 #video-background {
     right: 0;
     bottom: 0;
@@ -192,7 +196,6 @@ nav {
 
 #fourthLeft{
     width: 65%;
-    margin-left: -24%;
 }
 
 #optimiza{
