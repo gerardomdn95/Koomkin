@@ -89,7 +89,6 @@ nav {
 
 #phonee {
     position: absolute;
-    left: -5%;
     top: -0%;
     height: auto;
     width: 45%;
@@ -99,7 +98,6 @@ nav {
 #lead {
     -webkit-animation-delay: 2s;
     position: absolute;
-    left: -5%;
     top: -0%;
     height: auto;
     width: 45%;
@@ -109,8 +107,13 @@ nav {
 #cuantos{
     z-index: 100;
     position: absolute;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: -15%;
+}
+
+.social-fa{
+    font-size: 60px;
+    text-align: center;
 }
 
 #un{
@@ -141,7 +144,7 @@ nav {
     width: 40%;
     position: absolute;
     margin-top: -5%;
-    margin-left: 10%;
+    margin-left: 13%;
     -webkit-animation-delay: 1s;
 }
 #app3 {
@@ -149,8 +152,12 @@ nav {
     width: 40%;
     position: absolute;
     margin-top: 0%;
-    margin-left: 20%;
+    margin-left: 26%;
     -webkit-animation-delay: 1.5s;
+}
+
+#fElements{
+    margin-right: 35%;
 }
 
 .algoritmo {
@@ -166,6 +173,7 @@ nav {
     width: auto;
     height: auto;
     z-index: -10;
+    margin-left: -2%;
 }
 
 #likes {
@@ -174,6 +182,7 @@ nav {
     position: absolute;
     margin-top: -10%;
     margin-left: 8%;
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 #foot {
@@ -182,8 +191,8 @@ nav {
 }
 
 #fourthLeft{
-    width: 35%;
-    margin-left: 6%;
+    width: 65%;
+    margin-left: -24%;
 }
 
 #optimiza{
@@ -218,11 +227,13 @@ nav {
 
 h1 {
     color: white;
+    font-size: 61px;    
 }
 
 h2 {
     color: #3a4d57;
     font-weight: 300;
+    font-size: 40px;    
 }
 
 .up {
@@ -245,6 +256,10 @@ h2 {
 
 .vid-div {
     background-color: rgba(58, 77, 87, .8);
+}
+
+.vid2-div {
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .bluem-div {
@@ -288,7 +303,7 @@ h2 {
 }
 
 .adress {
-    text-align: center;
+    margin-left: 10px;
 }
 
 .modal .modal-content {
@@ -406,7 +421,7 @@ nav ul a {
     height: 1450px;
     width: 500px;
     position: absolute;
-    margin-top: -764px;
+    margin-top: -865px;
     transform: rotate(50deg);
     z-index: 5;
 }
@@ -416,8 +431,27 @@ nav ul a {
     height: 1450px;
     width: 500px;
     position: absolute;
-    margin-left: 1250px;
-    margin-top: 710px;
+    margin-left: 1270px;
+    margin-top: 860px;
     transform: rotate(50deg);
     z-index: 5;
+}
+
+.white-div{
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.bluet-div{
+    background-color: rgba(61, 155, 233, .67);
+}
+
+.fa{
+    margin: 11px;
+}
+
+#negocios{
+    width: 38%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
 }
