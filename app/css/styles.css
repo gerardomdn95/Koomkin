@@ -215,6 +215,7 @@ nav {
 
 .counter {
     color: white;
+    font-weight: bold;
 }
 
 .modal-content {
@@ -263,7 +264,7 @@ h2 {
 }
 
 .bluem-div {
-    background:#00B6B9;
+    background:rgba(0, 182, 185, .5);
 }
 
 .blue-div {
@@ -277,10 +278,6 @@ h2 {
 
 .brown-div {
     background:#D39263;   
-}
-
-.dblue-div {
-    background-color: #0094D8;
 }
 
 .tabs.tabs-transparent .tab a.active {
@@ -316,7 +313,6 @@ h2 {
     height: 0 !important;
     min-height: 0 !important;
     width: 51px;
-    position: absolute;
 }
 
 #linkedIn {
@@ -454,4 +450,16 @@ nav ul a {
     margin-left: auto;
     left: auto;
     right: auto;
+}
+
+#contacto{
+    height: 800px;
+}
+
+#datos{
+    height: 500px;
+}
+
+nav ul a {
+    font-size: 18px;
 }

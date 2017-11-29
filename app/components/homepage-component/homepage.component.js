@@ -23,47 +23,36 @@
 
         $("#mensajeContacto").hide();
 
-        $(document).ready(function () {
-            $('.parallax').parallax();
-            $('.modal').modal();
-            $(".button-collapse").sideNav();
-            $('a[href^="#"]').on('click', function (e) {
-                e.preventDefault();
+        $win.on('scroll', function () {
+            var trigger = $win.scrollTop();
+            var top = $win.scrollTop() / 3;
+            $up1.css('transform', 'translateY(' + top * .5 + 'px)');
+            $down1.css('transform', 'translateY(' + top * -.5 + 'px)');
+            $up2.css('transform', 'translateY(' + top * .5 + 'px)');
+            $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
 
-                var target = this.hash,
-                    $target = $(target);
-
-                $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top
-                }, 900, 'swing', function () {
-                    window.location.hash = target;
-                });
-            });
-            $('#second').mouseover(function () {
+            if (trigger >= 500) {
                 $('#negocios').addClass("visible animated fadeInRight");
-            });
-            $('#third').mouseover(function () {
+            }
+            if (trigger >= 1500) {
                 $('#thirdLeft').addClass("visible animated fadeInLeft");
                 $('#thirdRight').addClass("visible animated fadeInRight");
-            });
-            $('#fourth').mouseover(function () {
+            }
+            if (trigger >= 2500) {
                 $('#fourthLeft').addClass("visible animated fadeInLeft");
                 $('#app1').addClass("visible animated fadeInDown");
                 $('#app2').addClass("visible animated fadeInDown");
                 $('#app3').addClass("visible animated fadeInDown");
-            });
-            $('#social-div').mouseover(function () {
+            }
+            if (trigger >= 3500) {
                 $('#optimiza').addClass("visible animated fadeInLeft");
                 $('#likes').addClass("visible animated fadeInRight");
-            });
-            $('#team').mouseover(function () {
-                $('.teamElements').addClass("visible animated fadeInRight");
-            });
-            $('#team').mouseover(function () {
+            }
+            if (trigger >= 4500) {
                 $('.teamElements').addClass("visible animated zoomIn");
-            });
-            $('#datos').mouseover(function () {
-                $('#datosDiv').addClass("visible animated zoomIn");                
+            }
+            if (trigger >= 5500) {
+                $('#datosDiv').addClass("visible animated zoomIn");
                 $('#un').addClass("visible animated zoomIn");
                 $('#dos').addClass("visible animated zoomIn");
                 $('#tres').addClass("visible animated zoomIn");
@@ -166,18 +155,28 @@
                         $this.countTo(options);
                     }
                 });
+            }
+        });
+
+        $(document).ready(function () {
+            $('.parallax').parallax();
+            $('.modal').modal();
+            $(".button-collapse").sideNav();
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+
+                var target = this.hash,
+                    $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function () {
+                    window.location.hash = target;
+                });
             });
         });
 
-        $win.on('scroll', function () {
-            var top = $win.scrollTop() / 3;
-            $up1.css('transform', 'translateY(' + top * .5 + 'px)');
-            $down1.css('transform', 'translateY(' + top * -.5 + 'px)');
-            $up2.css('transform', 'translateY(' + top * .5 + 'px)');
-            $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
-        });
-
-        $('#enviar').click(function(){
+        $('#enviar').click(function () {
             $("#formulario").hide();
             $("#mensajeContacto").show();
             $('#mensajeContacto').addClass("visible animated fadeIn");
