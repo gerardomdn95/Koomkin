@@ -1,0 +1,21 @@
+@-moz-document url-prefix() {
+    .triangle1 {
+        margin-top: -170%;
+    }
+    .triangle2 {
+        margin-left: 80%;
+        margin-top: 140%;
+    }
+    #app1{
+        margin-top: -65%;
+    }
+    #app2{
+        margin-top: -45%;
+    }
+    #app3{
+        margin-top: -25%;
+    }
+    #optimiza {
+        margin-left: 15%;
+    }
+}

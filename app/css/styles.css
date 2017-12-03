@@ -77,9 +77,12 @@
     
 }
 
+html{
+    font-family: Arial, Helvetica, sans-serif !important;    
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.59);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     top: 0;
     color: #3a4d57;
 }
@@ -110,16 +113,15 @@ nav {
     z-index: 11;
 }
 
+.fa{
+    margin-top: 10px;
+}
+
 #cuantos{
     z-index: 100;
     position: absolute;
     margin-left: 40%;
     margin-top: -15%;
-}
-
-.social-fa{
-    font-size: 60px;
-    text-align: center;
 }
 
 #un{
@@ -143,7 +145,7 @@ nav {
     width: 40%;
     position: absolute;
     margin-top: -37%;
-    margin-left: 20%;
+    margin-left: 25%;
     -webkit-animation-delay: .5s;
 }
 #app2 {
@@ -151,7 +153,7 @@ nav {
     width: 40%;
     position: absolute;
     margin-top: -27%;
-    margin-left: 33%;
+    margin-left: 38%;
     -webkit-animation-delay: 1s;
 }
 #app3 {
@@ -159,7 +161,7 @@ nav {
     width: 40%;
     position: absolute;
     margin-top: -17%;
-    margin-left: 46%;
+    margin-left: 51%;
     -webkit-animation-delay: 1.5s;
 }
 #fElements{
@@ -167,7 +169,7 @@ nav {
 }
 .algoritmo {
     height: auto;
-    width: 90%;
+    width: 120%;
 }
 #video-background {
     right: 0;
@@ -199,8 +201,10 @@ nav {
 }
 
 #optimiza{
-    width: 35%;
-    margin-left: 10%;
+    width: 51%;
+    margin-left: 25%;
+    left: auto;
+    right: auto;
 }
 
 #enviar {
@@ -326,6 +330,7 @@ h2 {
     background-color: rgba(255, 255, 255,0.85);
 }
 
+
 #descubre {
     background-color: white;
     color: #00B6B9;
@@ -444,12 +449,12 @@ nav ul a {
     background-color: rgba(61, 155, 233, .67);
 }
 
-.fa{
-    margin: 11px;
+#thirdLeft{
+    width: 44%;
 }
 
 #negocios{
-    width: 38%;
+    width: 40%;
     margin-left: auto;
     left: auto;
     right: auto;
