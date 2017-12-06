@@ -1,84 +1,5 @@
-@media (min-width: 1200px){
-    #phonee {
-        width: 45% !important;
-    }
-    #lead {
-        width: 45% !important;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    #phonee {
-        margin-top: 120px;
-    }
-    #lead {
-        margin-top: 120px;
-    }
-    .socialBackground {
-        height: -webkit-fill-available !important;
-    }
-    #video-backfround{
-        height: -webkit-fill-available !important;        
-    }
-}
-
-@media (max-width: 767px) {
-    h2 {
-        font-size: 35px;
-        font-weight: 400 !important;
-    }
-    h1 {
-        font-size: 40px;
-        font-weight: 300 !important;
-    }
-    div{
-        text-align: center;
-    }
-    #cuantos {
-        margin-top: 140%;
-        position: absolute;
-        z-index: 5;
-    }
-    #thirdLeft {
-        margin-top: 50%;
-    }
-    #phonee {
-        margin-top: 15%;
-        width: 120% !important;
-    }
-    #lead {
-        margin-top: 15%;
-        width: 120% !important;
-    }
-    #enviar {
-        float: center !important;
-    }
-    #cinta {
-        visibility: hidden !important;
-    }
-    .socialMedia{
-        font-size: 35px !important;
-    }
-    .socialBackground {
-        height: -webkit-fill-available !important;
-    }
-    #video-backfround{
-        height: -webkit-fill-available !important;        
-    }
-    .carta {
-        color: #3a4d57;
-        background-color: white;
-        margin: 10px;
-        text-align: left !important;
-    }
-    .counter {
-        color: #3a4d57 !important;
-    }
-    
-}
-
-html{
-    font-family: Arial, Helvetica, sans-serif !important;    
+html {
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 nav {
@@ -97,80 +18,102 @@ nav {
 }
 
 #phonee {
-    position: absolute;
-    top: -0%;
     height: auto;
     width: 45%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
     z-index: 10;
 }
-  
+
 #lead {
     -webkit-animation-delay: 2s;
-    position: absolute;
-    top: -0%;
     height: auto;
     width: 45%;
-    z-index: 11;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
 }
 
-.fa{
+.fa {
     margin-top: 10px;
 }
 
-#cuantos{
+#cuantos {
     z-index: 100;
     position: absolute;
     margin-left: 40%;
     margin-top: -15%;
 }
 
-#un{
+#un {
     -webkit-animation-delay: 0.3s;
 }
 
-#dos{
+#dos {
     -webkit-animation-delay: 0.6s;
 }
 
-#tres{
+#tres {
     -webkit-animation-delay: 0.9s;
 }
 
-#cuatro{
+#cuatro {
     -webkit-animation-delay: 1.2s;
 }
 
 #app1 {
+    margin: auto;
     height: auto;
-    width: 40%;
+    width: 45%;
     position: absolute;
-    margin-top: -37%;
-    margin-left: 25%;
+    top: 0%;
+    bottom: 30%;
+    right: 0%;
+    left: 0;
     -webkit-animation-delay: .5s;
 }
+
 #app2 {
+    margin: auto;
     height: auto;
-    width: 40%;
+    width: 45%;
     position: absolute;
-    margin-top: -27%;
-    margin-left: 38%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 30%;
     -webkit-animation-delay: 1s;
 }
+
 #app3 {
+    margin: auto;
     height: auto;
-    width: 40%;
+    width: 45%;
     position: absolute;
-    margin-top: -17%;
-    margin-left: 51%;
+    top: 30%;
+    bottom: 0%;
+    right: 0%;
+    left: 58%;
     -webkit-animation-delay: 1.5s;
 }
-#fElements{
+
+#fElements {
     margin-right: 35%;
 }
-.algoritmo {
+
+#algoritmo {
     height: auto;
-    width: 120%;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
+
 #video-background {
     right: 0;
     bottom: 0;
@@ -183,28 +126,23 @@ nav {
 }
 
 #likes {
+    margin: auto;
+    width: 35%;
     height: auto;
-    width: 33%;
     position: absolute;
-    margin-top: -10%;
-    margin-left: 8%;
+    top: 0;
+    bottom: 0;
     background-color: rgba(250, 250, 250, 0.5);
 }
 
 #foot {
     height: 10%;
-    background:#434a4e;
+    background: #434a4e;
 }
 
-#fourthLeft{
-    width: 65%;
-}
-
-#optimiza{
-    width: 51%;
-    margin-left: 25%;
-    left: auto;
-    right: auto;
+#fourthLeft {
+    margin-left: 8%;
+    width: 24% !important;
 }
 
 #enviar {
@@ -235,13 +173,18 @@ nav {
 
 h1 {
     color: white;
-    font-size: 61px;    
+    font-size: 61px;
+    text-transform: uppercase;
 }
 
 h2 {
     color: #3a4d57;
-    font-weight: 300;
-    font-size: 40px;    
+    font-weight: 200;
+    font-size: 40px;
+}
+
+b {
+    font-weight: 700;
 }
 
 .up {
@@ -254,7 +197,7 @@ h2 {
     width: 23%;
 }
 
-.socialMedia{
+.socialMedia {
     color: white;
 }
 
@@ -262,36 +205,32 @@ h2 {
     height: 1000px;
 }
 
-.vid-div {
-    background-color: rgba(58, 77, 87, .8);
-}
-
 .vid2-div {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, .6);
 }
 
 .bluem-div {
-    background:rgba(0, 182, 185, .5);
+    background: rgba(0, 182, 185, .5);
 }
 
 .blue-div {
-    background:#A3E1F8;
+    background: #A3E1F8;
 }
 
 .gray-div {
-    background:#434a4e;
-    color: white !important;    
+    background: #434a4e;
+    color: white !important;
 }
 
 .brown-div {
-    background:#D39263;   
+    background: #D39263;
 }
 
 .tabs.tabs-transparent .tab a.active {
     color: #3a4d57;
 }
 
-.tabs.tabs-transparent .tab a{
+.tabs.tabs-transparent .tab a {
     color: #3a4d57;
 }
 
@@ -315,7 +254,7 @@ h2 {
     text-align: center;
 }
 
-.graphicElement{
+.graphicElement {
     border-bottom: 12px solid rgba(33, 222, 206, 1);
     height: 0 !important;
     min-height: 0 !important;
@@ -327,9 +266,8 @@ h2 {
 }
 
 #social-div {
-    background-color: rgba(255, 255, 255,0.85);
+    background-color: rgba(255, 255, 255, 0.85);
 }
-
 
 #descubre {
     background-color: white;
@@ -340,15 +278,15 @@ h2 {
 }
 
 #descubre:hover {
-    background-color:#ff712d;
+    background-color: #ff712d;
     color: white;
 }
 
 #equipo {
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     border-color: white;
-    border-style: solid; 
+    border-style: solid;
     text-transform: none;
     width: 260px;
 }
@@ -362,7 +300,6 @@ h2 {
 .invisible {
     visibility: hidden;
 }
-
 
 .visible {
     visibility: visible;
@@ -390,12 +327,14 @@ nav ul a {
     display: -webkit-inline-box;
     color: white;
 }
+
 .up1 {
     position: absolute;
     height: auto;
     width: 20%;
     margin-top: -65%;
 }
+
 .down1 {
     position: absolute;
     height: auto;
@@ -403,6 +342,7 @@ nav ul a {
     margin-left: 20.5%;
     margin-top: -40%;
 }
+
 .up2 {
     position: absolute;
     height: auto;
@@ -410,6 +350,7 @@ nav ul a {
     margin-left: 41%;
     margin-top: -65%;
 }
+
 .down2 {
     position: absolute;
     height: auto;
@@ -417,57 +358,92 @@ nav ul a {
     margin-left: 61.5%;
     margin-top: -40%;
 }
+
 #cinta {
     transform: rotate(-10deg);
 }
+
 .triangle1 {
     background-color: rgba(255, 255, 255, .9);
-    height: 1450px;
-    width: 500px;
+    height: 75%;
+    width: 14%;
     position: absolute;
-    margin-top: -865px;
+    margin-top: -35%;
     transform: rotate(50deg);
     z-index: 5;
 }
 
 .triangle2 {
     background-color: rgba(255, 255, 255, .9);
-    height: 1450px;
-    width: 500px;
+    height: 100%;
+    width: 30%;
     position: absolute;
-    margin-left: 1270px;
-    margin-top: 860px;
+    margin-top: 34%;
+    margin-left: 80%;
     transform: rotate(50deg);
     z-index: 5;
+    ;
 }
 
-.white-div{
+.white-div {
     background-color: rgba(255, 255, 255, .5);
 }
 
-.bluet-div{
+.bluet-div {
     background-color: rgba(61, 155, 233, .67);
 }
 
-#thirdLeft{
+#thirdLeft {
     width: 44%;
 }
 
-#negocios{
+#negocios {
     width: 40%;
     margin-left: auto;
     left: auto;
     right: auto;
 }
 
-#contacto{
+#contacto {
     height: 800px;
 }
 
-#datos{
+#datos {
     height: 500px;
 }
 
 nav ul a {
     font-size: 18px;
+}
+
+.navbar-fixed {
+    position: absolute;
+}
+
+.box-vid {
+    background-color: rgba(58, 77, 87, .8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+#address {
+    padding-left: 4%;
+}
+
+#fourthLeft {
+    width: 58%;
+}
+
+.flex {
+    display: flex;
+}
+
+.colum {
+    flex-direction: column;
+}
+
+.hcent {
+    margin-top: 15%;
 }

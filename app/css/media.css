@@ -1,0 +1,77 @@
+@media (min-width: 1200px) {
+    #phonee {
+        width: 45% !important;
+    }
+    #lead {
+        width: 45% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #phonee {
+        margin-top: 120px;
+    }
+    #lead {
+        margin-top: 120px;
+    }
+    .socialBackground {
+        height: -webkit-fill-available !important;
+    }
+    #video-backfround {
+        height: -webkit-fill-available !important;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 35px;
+        font-weight: 400 !important;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: 300 !important;
+    }
+    div {
+        text-align: center;
+    }
+    #cuantos {
+        margin-top: 140%;
+        position: absolute;
+        z-index: 5;
+    }
+    #thirdLeft {
+        margin-top: 50%;
+    }
+    #phonee {
+        margin-top: 15%;
+        width: 120% !important;
+    }
+    #lead {
+        margin-top: 15%;
+        width: 120% !important;
+    }
+    #enviar {
+        float: center !important;
+    }
+    #cinta {
+        visibility: hidden !important;
+    }
+    .socialMedia {
+        font-size: 35px !important;
+    }
+    .socialBackground {
+        height: -webkit-fill-available !important;
+    }
+    #video-backfround {
+        height: -webkit-fill-available !important;
+    }
+    .carta {
+        color: #3a4d57;
+        background-color: white;
+        margin: 10px;
+        text-align: left !important;
+    }
+    .counter {
+        color: #3a4d57 !important;
+    }
+}

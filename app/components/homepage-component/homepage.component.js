@@ -65,7 +65,7 @@
             }
             if (trigger >= 1500) {
                 $('#thirdLeft').addClass("visible animated fadeInLeft");
-                $('#thirdRight').addClass("visible animated fadeInRight");
+                $('#algoritmo').addClass("visible animated fadeInRight");
             }
             if (trigger >= 2500) {
                 $('#fourthLeft').addClass("visible animated fadeInLeft");

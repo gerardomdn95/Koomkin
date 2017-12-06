@@ -1,55 +1,60 @@
-<div id="inicio" class="parallax-container valign-wrapper vid-div">
-    <div class="navbar-fixed">
-        <nav>
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#inicio" class="brand-logo">
-                        <img class="navlogo" height="30px" src="app/assets/img/Logo_Koomkin.png" alt="">
-                    </a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li class="tab">
-                            <a href="#inicio">Inicio</a>
-                        </li>
-                        <li class="tab">
-                            <a href="#second">Servicios</a>
-                        </li>
-                        <li class="tab">
-                            <a href="#third">Nosotros</a>
-                        </li>
-                        <li class="tab">
-                            <a href="#team">Equipo</a>
-                        </li>
-                        <li class="tab">
-                            <a href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li>
-                            <a href="#inicio">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="#second">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="#third">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="#team">Equipo</a>
-                        </li>
-                        <li>
-                            <a href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+<div class="navbar-fixed">
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#inicio" class="brand-logo">
+                    <img class="navlogo" height="30px" src="app/assets/img/Logo_Koomkin.png" alt="">
+                </a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="tab">
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#second">Servicios</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#third">Nosotros</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#team">Equipo</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li>
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#second">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#third">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#team">Equipo</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+</div>
+<div id="inicio" class="parallax-container valign-wrapper">
+    <div class="parallax">
+        <video autoplay loop id="video-background" muted plays-inline>
+            <source src="app/assets/vid/koomkinWebVideo.mp4" type="video/mp4">
+        </video>
     </div>
     <div class="row">
         <div id="cuantos" class="col s12 m6 s6 animated fadeInRight">
-            <h1>¿Cuántos clientes nuevos
+            <h1 style="text-transform: inherit;">¿Cuántos clientes nuevos
                 <br> quieres hoy?</h1>
             <hr>
             <h2 style="color: white">Te presentamos el
@@ -62,6 +67,7 @@
             <img id="lead" class="animated zoomIn" src="app/assets/img/solo-el-Lead.png" alt="">
         </div>
     </div>
+    <div class="box-vid"></div>
     <div class="triangle1"></div>
     <div class="triangle2"></div>
     <video autoplay loop id="video-background" muted plays-inline>
@@ -81,10 +87,10 @@
             <img class="down2" src="app/assets/img/4.png" alt="">
         </div>
         <div id="negocios" class="col l6 m6 s12 invisible">
-            <div class="graphicElement">
+            <div class="graphicElement" style="width: 105px;">
             </div>
             <div class="secondElements">
-                <h1 style="color: #3a4d57">
+                <h1 style="color: #3a4d57;">
                     <b>Para todas las empresas</b>
                 </h1>
                 <h2 class="thicker">Koomkin esta diseñado para ayudar a
@@ -104,6 +110,8 @@
                 <h1>
                     <b>Un algoritmo inteligente</b>
                 </h1>
+                <div class="graphicElement" style="width: 68%;">
+                </div>
                 <h2 class="socialMedia">Nuestro sistema de
                     <b>inteligencia artificial</b> toma desiciones para reducir el costo por captar clientes nuevos y aumenta
                     el retorno de inversión.
@@ -118,9 +126,7 @@
                     <div class="fa fa-envelope"></div>
                 </h2>
             </div>
-            <div id="thirdRight" class="col l5 m5 s12 invisible">
-                <img class="algoritmo" src="app/assets/img/animacion.gif" alt="">
-            </div>
+            <img class="invisible" id="algoritmo" src="app/assets/img/animacion.gif" alt="">
         </div>
     </div>
 </div>
@@ -129,33 +135,29 @@
     <div class="parallax">
         <img class="socialBackground" src="app/assets/img/ipad.jpg">
     </div>
-    <div id="fElements" class="row">
-        <div id="fourthLeft" class="col l5 m5 s12 invisible">
-            <div class="graphicElement" style="border-bottom: 12px solid white;">
-            </div>
-            <h1 style="color: white">
-                <b>Información a tiempo</b>
-            </h1>
-            <h2 style="color: white">Ingresa desde nuestra plataforma y evalúa en tiempo real
-                <br>
-                <b>el desempeño de tu campaña.</b>
-            </h2>
+    <div id="fourthLeft" class="container invisible">
+        <div class="graphicElement" style="border-bottom: 12px solid white;">
         </div>
-        <div class="col l7 m7 s12">
-            <img id="app1" class="invisible" src="app/assets/img/app1.png" alt="">
-            <img id="app2" class="invisible" src="app/assets/img/app2.png" alt="">
-            <img id="app3" class="invisible" src="app/assets/img/app3.png" alt="">
-        </div>
+        <h1 style="color: white">
+            <b>Información a tiempo</b>
+        </h1>
+        <h2 style="color: white">Ingresa desde nuestra plataforma y evalúa en tiempo real
+            <br>
+            <b>el desempeño de tu campaña.</b>
+        </h2>
     </div>
+    <img class="invisible" id="app1" src="app/assets/img/app1.png" alt="">
+    <img class="invisible" id="app2" src="app/assets/img/app2.png" alt="">
+    <img class="invisible" id="app3" src="app/assets/img/app3.png" alt="">
 </div>
 
 <div id="social-div" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="socialBackground" src="app/assets/img/fondo.svg">
     </div>
-    <div class="socialElements invisible">
+    <div class="container">
         <div class="row">
-            <div id="optimiza" class="col l6 m6 s12">
+            <div id="optimiza" class="col l6 m6 s12 invisible">
                 <div class="graphicElement">
                 </div>
                 <h1 style="color: #3a4d57">
@@ -166,14 +168,18 @@
                     <b>mandarte solamente clientes potenciales que te sirvan.</b>
                 </h2>
             </div>
-            <img class="col l6 m6 s12" id="likes" src="app/assets/img/prospectos.gif" alt="">
+            <div class="col l6 m6 s12">
+                <img class="invisible" id="likes" src="app/assets/img/prospectos.gif" alt="">
+            </div>
         </div>
     </div>
 </div>
 
 <div id="team" class="parallax-container valign-wrapper vid2-div">
     <div class="parallax">
-        <img class="socialBackground" src="app/assets/img/vid2.jpg">
+        <video autoplay loop id="video-background" muted plays-inline>
+            <source src="app/assets/vid/team.mp4" type="video/mp4">
+        </video>
     </div>
     <div class="container">
         <div class="row">
@@ -225,6 +231,7 @@
         </div>
     </div>
 </div>
+
 <div id="datos" class="parallax-container valign-wrapper bluem-div">
     <div class="parallax">
         <img class="socialBackground" src="app/assets/img/city.jpg">
@@ -287,9 +294,6 @@
         <h1 style="color: #3a4d57;">
             <b>Contacto</b>
         </h1>
-        <h3 style="color: #3a4d57;">
-            <b>Queremos escuchar sobre ti</b>
-        </h3>
         <div class="row">
             <div class="col l6 m6 s12">
                 <div class="card">
@@ -323,11 +327,21 @@
                         </form>
                     </div>
                 </div>
-                <p>Polanco, CDMX</p>
-                <b>contacto@koomkin.com</b>
-                <b>(55) 5535 - 0499</b>
             </div>
-            <div class="col l6 m6 s12">
+            <div id="address" class="col l6 m6 s12">
+                <h3 style="color: #3a4d57;">
+                    <b>Queremos escuchar sobre ti</b>
+                </h3>
+                <br>
+                <h5>Polanco, CDMX</h5>
+                <br>
+                <br>
+                <h5>
+                    <b>contacto@koomkin.com</b>
+                </h5>
+                <h5>
+                    <b>(55) 5535 - 0499</b>
+                </h5>
             </div>
         </div>
     </div>
