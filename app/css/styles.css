@@ -160,6 +160,10 @@ nav {
     background-image: url("../app/assets/img/like.png");
 }
 
+#inicio {
+    height: -webkit-fill-available;
+}
+
 .counter {
     color: white;
     font-weight: bold;
