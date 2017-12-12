@@ -160,10 +160,6 @@ nav {
     background-image: url("../app/assets/img/like.png");
 }
 
-#inicio {
-    height: -webkit-fill-available;
-}
-
 .counter {
     color: white;
     font-weight: bold;
@@ -208,7 +204,7 @@ b {
 }
 
 .parallax-container {
-    height: 1000px;
+    height: -webkit-fill-available;
 }
 
 .vid2-div {
@@ -300,14 +296,6 @@ b {
     background-color: #ff712d;
     color: white;
     border-style: none;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.visible {
-    visibility: visible;
 }
 
 nav ul a {
@@ -410,11 +398,11 @@ nav ul a {
 }
 
 #contacto {
-    height: 800px;
+    height: 100%;
 }
 
-#datos {
-    height: 500px;
+#datos{
+    height: 100%;
 }
 
 nav ul a {
@@ -491,4 +479,12 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 .input-field .prefix.active {
     color: #3a4d57;
+}
+
+#contactoRow{
+    margin-top: 25px;
+}
+
+#datosRow{
+    margin-top: 25px;
 }

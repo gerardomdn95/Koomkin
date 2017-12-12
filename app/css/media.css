@@ -10,9 +10,6 @@
 @media (min-width: 768px) and (max-width: 1199px) {}
 
 @media (max-width: 767px) {
-    .parallax-container {
-        height: 725px;
-    }
     h1 {
         font-size: 25px !important;
         font-weight: 700;
@@ -38,14 +35,14 @@
         left: -10%;
         top: 0;
         bottom: 25%;
-        width: 120% !important;
+        width: 85% !important;
     }
     #lead {
         right: 0;
         left: -10%;
         top: 0;
         bottom: 25%;
-        width: 120% !important;
+        width: 85% !important;
     }
     #cuantos {
         margin-left: 0%;
@@ -65,7 +62,7 @@
         color: #00A4A7 !important;
     }
     .fa {
-        font-size: 35px;
+        font-size: 28px;
     }
     #thirdLeft {
         width: 100%;
@@ -83,7 +80,6 @@
         bottom: 25%;
         left: 0;
         right: 0;
-        visibility: visible;
     }
     #fourthLeft {
         width: 100% !important;
@@ -92,7 +88,6 @@
         width: 100%;
         position: absolute;
         bottom: 10%;
-        visibility: visible;
     }
     #app1 {
         width: 80%;
@@ -118,51 +113,6 @@
     #likes {
         width: 85%;
         position: initial;
-    }
-    #socialDiv {
-        height: 580px;
-    }
-    #datos {
-        height: 100%
-    }
-    #negocios {
-        visibility: visible;
-    }
-    #fourthLeft {
-        visibility: visible;
-    }
-    #app1 {
-        visibility: visible;
-    }
-    #app2 {
-        visibility: visible;
-    }
-    #app3 {
-        visibility: visible;
-    }
-    #optimiza {
-        visibility: visible;
-    }
-    #likes {
-        visibility: visible;
-    }
-    .teamElements {
-        visibility: visible;
-    }
-    #datosDiv {
-        visibility: visible;
-    }
-    #un {
-        visibility: visible;
-    }
-    #dos {
-        visibility: visible;
-    }
-    #tres {
-        visibility: visible;
-    }
-    #cuatro {
-        visibility: visible;
     }
     #enviar {
         float: center !important;

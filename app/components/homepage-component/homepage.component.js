@@ -31,6 +31,12 @@
                 delay: 10,
                 time: 2000
             });
+            $('.aniview').AniView();            
+            var options = {
+                animateThreshold: 100,
+                scrollPollInterval: 20
+            }
+            $('.aniview').AniView(options);
         });
 
         $win.on('scroll', function () {
@@ -40,34 +46,6 @@
             $down1.css('transform', 'translateY(' + top * -.5 + 'px)');
             $up2.css('transform', 'translateY(' + top * .5 + 'px)');
             $down2.css('transform', 'translateY(' + top * -.5 + 'px)');
-
-            if (trigger >= 500) {
-                $('#negocios').addClass("visible animated fadeInRight");
-            }
-            if (trigger >= 1500) {
-                $('#thirdLeft').addClass("visible animated fadeInLeft");
-                $('#algoritmo').addClass("visible animated fadeInRight");
-            }
-            if (trigger >= 2500) {
-                $('#fourthLeft').addClass("visible animated fadeInLeft");
-                $('#app1').addClass("visible animated fadeInDown");
-                $('#app2').addClass("visible animated fadeInDown");
-                $('#app3').addClass("visible animated fadeInDown");
-            }
-            if (trigger >= 3500) {
-                $('#optimiza').addClass("visible animated fadeInLeft");
-                $('#likes').addClass("visible animated fadeInRight");
-            }
-            if (trigger >= 4500) {
-                $('.teamElements').addClass("visible animated zoomIn");
-            }
-            if (trigger >= 5500) {
-                $('#datosDiv').addClass("visible animated zoomIn");
-                $('#un').addClass("visible animated zoomIn");
-                $('#dos').addClass("visible animated zoomIn");
-                $('#tres').addClass("visible animated zoomIn");
-                $('#cuatro').addClass("visible animated zoomIn");
-            }
         });
 
         $('#enviar').click(function () {
