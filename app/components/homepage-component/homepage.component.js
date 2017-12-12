@@ -27,6 +27,10 @@
             $('.parallax').parallax();
             $('.modal').modal();
             $(".button-collapse").sideNav();
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1500
+            });
         });
 
         $win.on('scroll', function () {
@@ -59,7 +63,6 @@
             }
             if (trigger >= 5500) {
                 $('#datosDiv').addClass("visible animated zoomIn");
-                $('.counter').addClass("count")
                 $('#un').addClass("visible animated zoomIn");
                 $('#dos').addClass("visible animated zoomIn");
                 $('#tres').addClass("visible animated zoomIn");
