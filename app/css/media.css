@@ -7,57 +7,168 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
-    #phonee {
-        margin-top: 120px;
-    }
-    #lead {
-        margin-top: 120px;
-    }
-    .socialBackground {
-        height: -webkit-fill-available !important;
-    }
-    #video-backfround {
-        height: -webkit-fill-available !important;
-    }
-}
+@media (min-width: 768px) and (max-width: 1199px) {}
 
 @media (max-width: 767px) {
-    h2 {
-        font-size: 35px;
-        font-weight: 400 !important;
+    .parallax-container {
+        height: 725px;
     }
     h1 {
-        font-size: 40px;
-        font-weight: 300 !important;
+        font-size: 25px !important;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 19px !important;
+    }
+    h3 {
+        font-size: 22px;
+        color: #3a4d57 !important;
+    }
+    .graphicElement {
+        display: none;
+    }
+    .graphicElement2 {
+        display: none;
     }
     div {
         text-align: center;
     }
-    #cuantos {
-        margin-top: 140%;
-        position: absolute;
-        z-index: 5;
-    }
-    #thirdLeft {
-        margin-top: 50%;
-    }
     #phonee {
-        margin-top: 15%;
+        right: 0;
+        left: -10%;
+        top: 0;
+        bottom: 25%;
         width: 120% !important;
     }
     #lead {
-        margin-top: 15%;
+        right: 0;
+        left: -10%;
+        top: 0;
+        bottom: 25%;
         width: 120% !important;
+    }
+    #cuantos {
+        margin-left: 0%;
+        margin-top: 33%;
+    }
+    #negocios {
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    #para {
+        position: absolute;
+        bottom: 270%;
+        color: #00A4A7 !important;
+    }
+    .fa {
+        font-size: 35px;
+    }
+    #thirdLeft {
+        width: 100%;
+        margin-top: 110%;
+    }
+    #unAlgoritmo {
+        position: absolute;
+        bottom: 190%;
+        color: #00A4A7 !important;
+    }
+    #algoritmo {
+        height: auto;
+        width: 60%;
+        top: 0;
+        bottom: 25%;
+        left: 0;
+        right: 0;
+        visibility: visible;
+    }
+    #fourthLeft {
+        width: 100% !important;
+    }
+    #thirdLeft {
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        visibility: visible;
+    }
+    #app1 {
+        width: 80%;
+        top: 0%;
+        bottom: 60%;
+        right: 0%;
+        left: -55%;
+    }
+    #app2 {
+        width: 80%;
+        top: 0%;
+        bottom: 60%;
+        right: 0%;
+        left: 0%;
+    }
+    #app3 {
+        width: 80%;
+        top: 0%;
+        bottom: 60%;
+        right: 0%;
+        left: 35%;
+    }
+    #likes {
+        width: 85%;
+        position: initial;
+    }
+    #socialDiv {
+        height: 580px;
+    }
+    #datos {
+        height: 100%
+    }
+    #negocios {
+        visibility: visible;
+    }
+    #fourthLeft {
+        visibility: visible;
+    }
+    #app1 {
+        visibility: visible;
+    }
+    #app2 {
+        visibility: visible;
+    }
+    #app3 {
+        visibility: visible;
+    }
+    #optimiza {
+        visibility: visible;
+    }
+    #likes {
+        visibility: visible;
+    }
+    .teamElements {
+        visibility: visible;
+    }
+    #datosDiv {
+        visibility: visible;
+    }
+    #un {
+        visibility: visible;
+    }
+    #dos {
+        visibility: visible;
+    }
+    #tres {
+        visibility: visible;
+    }
+    #cuatro {
+        visibility: visible;
     }
     #enviar {
         float: center !important;
     }
     #cinta {
         visibility: hidden !important;
-    }
-    .socialMedia {
-        font-size: 35px !important;
     }
     .socialBackground {
         height: -webkit-fill-available !important;

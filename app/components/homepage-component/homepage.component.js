@@ -27,29 +27,6 @@
             $('.parallax').parallax();
             $('.modal').modal();
             $(".button-collapse").sideNav();
-            $('.count').each(function () {
-                $(this).prop('Counter', 0).animate({
-                    Counter: $(this).text()
-                }, {
-                        duration: 80,
-                        easing: 'swing',
-                        step: function (now) {
-                            $(this).text(Math.ceil(now));
-                        }
-                    });
-            });
-            $('a[href^="#"]').on('click', function (e) {
-                e.preventDefault();
-
-                var target = this.hash,
-                    $target = $(target);
-
-                $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top
-                }, 900, 'swing', function () {
-                    window.location.hash = target;
-                });
-            });
         });
 
         $win.on('scroll', function () {
