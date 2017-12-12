@@ -21,6 +21,22 @@
         font-size: 22px;
         color: #3a4d57 !important;
     }
+    .box-vid {
+        background: -webkit-linear-gradient(left, #00CBB9, #00A2B9);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #00CBB9, #00A2B9);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #00CBB9, #00A2B9);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #00CBB9, #00A2B9);
+        /* Standard syntax (must be last) */
+    }
+    .white-div {
+        background-color: #E8F2FA;
+    }
+    .gray-div {
+        height: 700px;
+    }
     .graphicElement {
         display: none;
     }
@@ -46,7 +62,7 @@
     }
     #cuantos {
         margin-left: 0%;
-        margin-top: 33%;
+        margin-top: 20%;
     }
     #negocios {
         width: 100%;
@@ -70,19 +86,20 @@
     }
     #unAlgoritmo {
         position: absolute;
-        bottom: 190%;
+        bottom: 260%;
         color: #00A4A7 !important;
     }
     #algoritmo {
         height: auto;
-        width: 60%;
+        width: 90%;
         top: 0;
-        bottom: 25%;
+        bottom: 20%;
         left: 0;
         right: 0;
     }
     #fourthLeft {
         width: 100% !important;
+        margin-left: 0%;
     }
     #thirdLeft {
         width: 100%;
@@ -123,8 +140,38 @@
     .socialBackground {
         height: -webkit-fill-available !important;
     }
-    #video-backfround {
+    #video-background {
         height: -webkit-fill-available !important;
+    }
+    .bluet-div {
+        height: 700px;
+    }
+    #social-div {
+        height: 700px;
+    }
+    .navlogo {
+        visibility: hidden;
+    }
+    .Wnavlogo {
+        position: absolute;
+        visibility: visible;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+    }
+    nav {
+        background-color: rgba(57, 79, 87, .30);
+        top: 0;
+    }
+    .side-nav {
+        background-color: rgba(57, 79, 87, .90);
+        color: white;
+    }
+    .side-nav {
+        margin-top: 57px !important;
+    }
+    .side-nav li>a {
+        color: white;
     }
     .carta {
         color: #3a4d57;

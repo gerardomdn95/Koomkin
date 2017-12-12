@@ -13,6 +13,12 @@ nav {
     margin-top: 10px;
 }
 
+.Wnavlogo {
+    padding-left: 25px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
 #sidenav-overlay {
     z-index: 996;
 }
@@ -123,7 +129,7 @@ nav {
     width: auto;
     height: auto;
     z-index: -10;
-    margin-left: -2%;
+    margin-left: 0%;
 }
 
 #likes {
