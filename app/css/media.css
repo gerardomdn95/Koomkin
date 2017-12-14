@@ -5,6 +5,9 @@
     #lead {
         width: 45% !important;
     }
+    .aviso{
+        float: right;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {}
@@ -76,7 +79,7 @@
         left: 0;
     }
     #para {
-        color: #00A4A7;        
+        color: #00A4A7;
     }
     .fa {
         font-size: 28px;
@@ -197,9 +200,18 @@
         margin-bottom: -20px;
         margin-top: -20px;
     }
-    h5{
+    h5 {
         font-size: 20px;
-        margin-top: 5px; 
+        margin-top: 5px;
+    }
+    #datos {
+        height: 650px;
+    }
+    .vid2-div {
+        height: 500px;
+    }
+    .aviso{
+        float: center;
     }
     #profesionistas {
         visibility: visible;

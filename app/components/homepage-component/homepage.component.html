@@ -317,22 +317,27 @@
                 </h3>
             </div>
             <div class="col l6 m6 s12">
-                <form>
-                    <h4 id="mensajeContacto">Nos pondremos en contacto contigo</h4>
+                <form id="contactoForm">
+                    <h4 id="mensajeContacto">Gracias por tu interés
+                        <br>Nos pondremos en contacto contigo</h4>
                     <div id="formulario">
                         <div class="input-field">
-                            <input id="name" type="text" name="Nombre" class="validate" required>
+                            <input id="name" type="text" name="nombre" class="validate" required>
                             <label>Nombre</label>
                         </div>
                         <div class="input-field">
-                            <input id="subject" type="text" name="Asunto" class="validate" required>
-                            <label>Asunto</label>
+                            <input id="email" type="email" name="email" class="validate" required>
+                            <label>email</label>
                         </div>
                         <div class="input-field">
-                            <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea" required></textarea>
+                            <input id="phone" type="number" name="phone" pattern=".{7,10}" required title="5 to 10 characters" class="validate">
+                            <label>Teléfono</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea"></textarea>
                             <label>Mensaje</label>
                         </div>
-                        <button id="enviar" class="waves-effect waves-light btn" type="submit" onClick="insert_value()" value="Insert">Enviar</button>
+                        <button type="submit" id="enviar" class="waves-effect waves-light btn" value="Insert" onClick="insert_value()">Enviar</button>
                     </div>
                     <br>
                 </form>
@@ -341,34 +346,47 @@
     </div>
 </div>
 
-<script>var script_url = "https://script.google.com/macros/s/AKfycbzw9rPHoTxQmsoE1Qa6ZDVdkxTEtJIBUwsO-yL8HtIPJLu3ZpY/exec";
+<script type="text/javascript">
+
+    var script_url = "https://script.google.com/macros/s/AKfycbzw9rPHoTxQmsoE1Qa6ZDVdkxTEtJIBUwsO-yL8HtIPJLu3ZpY/exec";
 
     function insert_value() {
 
         var name = $("#name").val();
         var email = $("#email").val();
-        var phone = $("#phone").val();
+        var phone = String($("#phone").val());
         var subject = $("#subject").val();
         var message = $("#message").val();
 
-        var url = script_url + "?callback=ctrlq&name=" + name + "&email=" + email + "&phone=" + phone + "&subject=" + subject + "&message=" + message + "&action=insert";
+        if ('' != name && '' != email && phone.length >= 7) {
 
-        var request = jQuery.ajax({
-            crossDomain: true,
-            url: url,
-            method: "GET",
-            dataType: "jsonp"
-        });
-        $('#formulario').hide();
-        $('#mensajeContacto').addClass("animated fadeInLeft");
-        $('#mensajeContacto').show();
+            var url = script_url + "?callback=ctrlq&name=" + name + "&email=" + email + "&phone=" + phone + "&message=" + message + "&action=insert";
+
+            var request = jQuery.ajax({
+                crossDomain: true,
+                url: url,
+                method: "GET",
+                dataType: "jsonp"
+            });
+
+            $('#formulario').hide();
+            $('#mensajeContacto').addClass("animated fadeInLeft");
+            $('#mensajeContacto').show();
+        }
     }
 </script>
 
 <footer class="page-footer gray-div">
     <div class="footer-copyright">
         <div class="container">
-            © 2017 Grupo Koomkin
+            <div class="row">
+                <div class="col l6 m6 s12">
+                    © 2017 Grupo Koomkin
+                </div>
+                <div class="col l6 m6 s12">
+                    <a class="aviso" href="app/assets/download/Aviso-Privacidad.pdf" download="app/assets/download/Aviso-Privacidad.pdf">Aviso de privacidad</a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
