@@ -289,6 +289,12 @@ b {
     color: #3a4d57;
 }
 
+#para-mob{
+    visibility: hidden;
+    position: absolute;
+    color: #00A4A7;
+}
+
 #equipo {
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -437,6 +443,11 @@ nav ul a {
 
 .colum {
     flex-direction: column;
+}
+
+#profesionistas{
+    visibility: hidden;
+    position: absolute;
 }
 
 .hcent {

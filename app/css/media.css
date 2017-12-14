@@ -33,8 +33,6 @@
     }
     .white-div {
         background-color: #E8F2FA;
-    }
-    .gray-div {
         height: 700px;
     }
     .graphicElement {
@@ -72,10 +70,14 @@
         right: 0;
         left: 0;
     }
+    #para-mob {
+        top: 0;
+        right: 0%;
+        left: 0%;
+        visibility: visible;
+    }
     #para {
-        position: absolute;
-        bottom: 270%;
-        color: #00A4A7 !important;
+        visibility: hidden;
     }
     .fa {
         font-size: 28px;
@@ -83,6 +85,9 @@
     #thirdLeft {
         width: 100%;
         margin-top: 110%;
+    }
+    #third {
+        height: 750px
     }
     #unAlgoritmo {
         position: absolute;
@@ -181,5 +186,16 @@
     }
     .counter {
         color: #3a4d57 !important;
+    }
+    #profesionistas {
+        visibility: visible;
+        height: auto;
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 5%;
     }
 }
