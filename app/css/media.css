@@ -10,12 +10,17 @@
 @media (min-width: 768px) and (max-width: 1199px) {}
 
 @media (max-width: 767px) {
+    hr {
+        visibility: visible;
+        -webkit-margin-before: -1em;
+        -webkit-margin-after: -1em;
+    }
     h1 {
         font-size: 25px !important;
         font-weight: 700;
     }
     h2 {
-        font-size: 19px !important;
+        font-size: 16px !important;
     }
     h3 {
         font-size: 22px;
@@ -70,65 +75,60 @@
         right: 0;
         left: 0;
     }
-    #para-mob {
-        top: 0;
-        right: 0%;
-        left: 0%;
-        visibility: visible;
-    }
     #para {
-        visibility: hidden;
+        color: #00A4A7;        
     }
     .fa {
         font-size: 28px;
     }
     #thirdLeft {
         width: 100%;
-        margin-top: 110%;
+        margin-top: 190%;
+        height: 650px;
     }
     #third {
         height: 750px
     }
     #unAlgoritmo {
-        position: absolute;
-        bottom: 260%;
-        color: #00A4A7 !important;
+        color: #00A4A7;
     }
     #algoritmo {
         height: auto;
         width: 90%;
         top: 0;
-        bottom: 20%;
+        bottom: 40%;
         left: 0;
         right: 0;
     }
     #fourthLeft {
-        width: 100% !important;
+        width: 75% !important;
         margin-left: 0%;
-    }
-    #thirdLeft {
-        width: 100%;
         position: absolute;
-        bottom: 10%;
+    }
+    #fourthLeft {
+        width: 75% !important;
+        position: absolute;
+        left: 13%;
+        right: 0;
     }
     #app1 {
         width: 80%;
         top: 0%;
-        bottom: 60%;
+        bottom: 50%;
         right: 0%;
         left: -55%;
     }
     #app2 {
         width: 80%;
         top: 0%;
-        bottom: 60%;
+        bottom: 50%;
         right: 0%;
         left: 0%;
     }
     #app3 {
         width: 80%;
         top: 0%;
-        bottom: 60%;
+        bottom: 50%;
         right: 0%;
         left: 35%;
     }
@@ -149,7 +149,7 @@
         height: -webkit-fill-available !important;
     }
     .bluet-div {
-        height: 700px;
+        height: 500px;
     }
     #social-div {
         height: 700px;
@@ -180,20 +180,34 @@
     }
     .carta {
         color: #3a4d57;
-        background-color: white;
-        margin: 10px;
+        background-color: rgba(255, 255, 255, .9);
         text-align: left !important;
+        margin-top: 10px;
+        padding: 15px;
     }
     .counter {
         color: #3a4d57 !important;
+        font-size: 25px !important;
+    }
+    .static {
+        color: #3a4d57 !important;
+        font-size: 25px !important;
+    }
+    .mas {
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+    h5{
+        font-size: 20px;
+        margin-top: 5px; 
     }
     #profesionistas {
         visibility: visible;
         height: auto;
-        width: 70%;
+        width: 90%;
         margin: auto;
         position: absolute;
-        top: 0;
+        top: -15%;
         right: 0;
         left: 0;
         bottom: 5%;
