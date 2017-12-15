@@ -16,9 +16,12 @@
         margin-top: 0%;
     }
     #optimiza {
-        margin-left: 15%;
+        margin-left: 0%;
     }
     .parallax-container {
         height: 1000px;
+    }
+    #likes{
+        right: 10%;
     }
 }

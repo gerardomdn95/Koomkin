@@ -5,7 +5,7 @@
     #lead {
         width: 45% !important;
     }
-    .aviso{
+    .aviso {
         float: right;
     }
 }
@@ -38,6 +38,12 @@
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #00CBB9, #00A2B9);
         /* Standard syntax (must be last) */
+        background-color: rgba(58, 77, 87, .8);
+        height: 100%;
+        width: 800px;
+        position: absolute;
+        z-index: 5;
+        margin-left: -150px;
     }
     .white-div {
         background-color: #E8F2FA;
@@ -210,7 +216,7 @@
     .vid2-div {
         height: 500px;
     }
-    .aviso{
+    .aviso {
         float: center;
     }
     #profesionistas {
