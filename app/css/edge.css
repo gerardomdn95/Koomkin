@@ -1,0 +1,5 @@
+@supports (-ms-ime-align:auto) {
+    .parallax-container {
+        height: 800px;
+    }
+}
