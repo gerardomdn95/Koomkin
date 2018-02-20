@@ -64,6 +64,7 @@
                 <b>canal de Ventas Nº1
                     <br> para empresas en México.</b>
             </h2>
+            <a class="waves-effect orange darken-1 waves-light btn-large" style="text-transform: unset;" href="#contacto">Contáctame</a>
         </div>
         <div class="col s12 m6 s6">
             <img id="phonee" class="animated fadeInLeft" src="https://drive.google.com/uc?id=1UICk8GEZYSh2Stm211OB-JUixarzmKGN" alt="">
@@ -83,7 +84,8 @@
         <img class="socialBackground" src="https://drive.google.com/uc?id=1aEJnz4nD2tLkpSInT1iioJwaCUq5Z0Bf">
     </div>
     <div class="row">
-        <img class="aniview" data-av-animation="fadeIn" id="profesionistas" src="https://drive.google.com/uc?id=1S7k-ZumN0-ezB1d-j4GEzOkV_Uux5KiF" alt="">
+        <img class="aniview" data-av-animation="fadeIn" id="profesionistas" src="https://drive.google.com/uc?id=1S7k-ZumN0-ezB1d-j4GEzOkV_Uux5KiF"
+            alt="">
         <div id="cinta" class="col l6 m6 s12">
             <img class="up1" src="https://drive.google.com/uc?id=1r-Z3ha5Y7w6PcBYpk2w0t1tGHUeTRYP7" alt="">
             <img class="down1" src="https://drive.google.com/uc?id=1OrfAAv3OjHm42aC_4DMbkU3l4CGbrPuY" alt="">
@@ -133,7 +135,8 @@
                     <div class="fa fa-envelope"></div>
                 </h2>
             </div>
-            <img class="aniview" data-av-animation="fadeInRight" id="algoritmo" src="https://drive.google.com/uc?id=1Cq7_fCrL_VvK0-lrmX3pdozmnwrjKOF5" alt="">
+            <img class="aniview" data-av-animation="fadeInRight" id="algoritmo" src="https://drive.google.com/uc?id=1Cq7_fCrL_VvK0-lrmX3pdozmnwrjKOF5"
+                alt="">
         </div>
     </div>
 </div>
@@ -155,9 +158,12 @@
             <b>evalúa el desempeño de tu campaña digital.</b>
         </h2>
     </div>
-    <img class="aniview" id="app1" data-av-animation="fadeInDown" src="https://drive.google.com/uc?id=1V_i-x2kP85p9DwHXTKPaj66YlOLnV2Qn" alt="">
-    <img class="aniview" id="app2" data-av-animation="fadeInDown" src="https://drive.google.com/uc?id=1iNflWOyOBWLfwup6jLlTbxHuKTfrqn9R" alt="">
-    <img class="aniview" id="app3" data-av-animation="fadeInDown" src="https://drive.google.com/uc?id=1AEbwlZniw7ihtBxBogWKG5NLD8Hzwqbg" alt="">
+    <img class="aniview" id="app1" data-av-animation="fadeInDown" src="https://drive.google.com/uc?id=1V_i-x2kP85p9DwHXTKPaj66YlOLnV2Qn"
+        alt="">
+    <img class="aniview" id="app2" data-av-animation="fadeInDown" src="https://drive.google.com/uc?id=1iNflWOyOBWLfwup6jLlTbxHuKTfrqn9R"
+        alt="">
+    <img class="aniview" id="app3" data-av-animation="fadeInDown" src="https://drive.google.com/uc?id=1AEbwlZniw7ihtBxBogWKG5NLD8Hzwqbg"
+        alt="">
 </div>
 
 <div id="social-div" class="parallax-container valign-wrapper">
@@ -179,7 +185,8 @@
                 </h2>
             </div>
             <div class="col l6 m6 s12">
-                <img class="aniview" id="likes" data-av-animation="fadeInRight" src="https://drive.google.com/uc?id=1Q224ez6Py-rKzUdSQwRna2ID7t6LHHH8" alt="">
+                <img class="aniview" id="likes" data-av-animation="fadeInRight" src="https://drive.google.com/uc?id=1Q224ez6Py-rKzUdSQwRna2ID7t6LHHH8"
+                    alt="">
             </div>
         </div>
     </div>
@@ -333,7 +340,7 @@
                             <textarea id="message" id="textarea1" name="Mensaje" class="materialize-textarea"></textarea>
                             <label>Mensaje</label>
                         </div>
-                        <button type="submit" id="enviar" class="waves-effect waves-light btn" value="Insert" onClick="insert_value()">Enviar</button>
+                        <a href="#Gracias" type="submit" id="enviar" class="waves-effect waves-light btn" value="Insert" onClick="insert_value()">Enviar</a>
                     </div>
                     <br>
                 </form>
@@ -343,7 +350,6 @@
 </div>
 
 <script type="text/javascript">
-
     var script_url = "https://script.google.com/macros/s/AKfycbzw9rPHoTxQmsoE1Qa6ZDVdkxTEtJIBUwsO-yL8HtIPJLu3ZpY/exec";
 
     function insert_value() {
@@ -356,7 +362,8 @@
 
         if ('' != name && '' != email && phone.length >= 7) {
 
-            var url = script_url + "?callback=ctrlq&name=" + name + "&email=" + email + "&phone=" + phone + "&message=" + message + "&action=insert";
+            var url = script_url + "?callback=ctrlq&name=" + name + "&email=" + email + "&phone=" + phone + "&message=" +
+                message + "&action=insert";
 
             var request = jQuery.ajax({
                 crossDomain: true,
