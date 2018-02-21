@@ -313,6 +313,21 @@ hr {
     border-style: none;
 }
 
+#vender {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    text-transform: none;
+    width: 260px;
+}
+
+#vender:hover {
+    background-color: #ff712d;
+    color: white;
+    border-style: none;
+}
+
 nav ul a {
     color: #3a4d57;
     font-weight: 500;
