@@ -222,5 +222,9 @@
         left: 0;
         bottom: 5%;
     }
+    #vender {
+        background-color: #ff712d;
+        border-color: #ff712d;
+    }
 }
 
